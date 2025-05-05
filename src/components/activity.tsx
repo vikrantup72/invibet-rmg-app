@@ -1,22 +1,22 @@
-import {getUserActivity, saveDeviceActivity} from '../api/Services/services';
+import { getUserActivity, saveDeviceActivity } from "../api/Services/services";
 import {
   UploadDeviceActivity,
   setDeviceActivity,
-} from '../redux/Reducers/userData';
-import {RootState} from '../redux/store';
+} from "../redux/Reducers/userData";
+import { RootState } from "../redux/store";
 import {
   GoalFireIcon,
   GoalWalkingIcon,
-} from '../routes/loggedIn/bettingTabs/icons';
-import {watchSdkEmitter} from './native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {useCallback, useEffect, useRef, useState} from 'react';
-import {Pressable, View} from 'react-native';
-import BackgroundTimer from 'react-native-background-timer';
-import {Div, Text} from 'react-native-magnus';
-import {useDispatch, useSelector} from 'react-redux';
-import {setCurrentStepData} from '../redux/Reducers/tempData';
-import moment from 'moment';
+} from "../routes/loggedIn/bettingTabs/icons";
+import { watchSdkEmitter } from "./native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { Pressable, View } from "react-native";
+import BackgroundTimer from "react-native-background-timer";
+import { Div, Text } from "react-native-magnus";
+import { useDispatch, useSelector } from "react-redux";
+import { setCurrentStepData } from "../redux/Reducers/tempData";
+import moment from "moment";
 
 type StepData = {
   step: number;
@@ -46,12 +46,12 @@ async function getData() {
   const values = await AsyncStorage.getAllKeys();
   for (let i = 0; i < values.length; i++) {
     const value = await AsyncStorage.getItem(values[i]);
-    console.log(i + 1 + ' async : ', values[i], value);
+    console.log(i + 1 + " async : ", values[i], value);
   }
 }
 
-export function Activity({token, deviceAddress}) {
-  const {currentStepData} = useSelector(state => state.tempData);
+export function Activity({ token, deviceAddress }) {
+  const { currentStepData } = useSelector((state) => state.tempData);
   const currentStepDataRef = useRef(null);
   const [activityData, setActivityData] = useState<StepData>({
     step: 0,
@@ -59,7 +59,7 @@ export function Activity({token, deviceAddress}) {
     calories: 0,
   });
   const [lastResetDate, setLastResetDate] = useState<string>(
-    new Date().toDateString(),
+    new Date().toDateString()
   );
   const dispatch = useDispatch();
   const userId = useSelector((state: RootState) => state.userData.user?.id);
@@ -70,7 +70,7 @@ export function Activity({token, deviceAddress}) {
 
   function adjustCalories(calories) {
     let calorie = calories;
-    if (typeof calories !== 'number' || isNaN(calories)) {
+    if (typeof calories !== "number" || isNaN(calories)) {
       calorie = parseInt(calories);
     }
 
@@ -79,7 +79,7 @@ export function Activity({token, deviceAddress}) {
 
     // If the decimal part is less than 0.9, round down; otherwise, round normally
     if (adjustedValue % 1 < 0.9) {
-      console.log('adjus value-=-', adjustedValue);
+      console.log("adjus value-=-", adjustedValue);
       return adjustedValue.toFixed(4); // Round down
       return Math.floor(adjustedValue); // Round down
     } else {
@@ -90,7 +90,7 @@ export function Activity({token, deviceAddress}) {
   // Get API
   const fetchUserActivity = useCallback(async () => {
     if (!token || !userId) {
-      console.log('Skipping fetch - missing token or userId');
+      console.log("Skipping fetch - missing token or userId");
       return null;
     }
 
@@ -113,13 +113,13 @@ export function Activity({token, deviceAddress}) {
         return data;
       }
     } catch (error) {
-      console.error('Error fetching user activity:', error);
+      console.error("Error fetching user activity:", error);
     }
     return null;
   }, [token, userId, dispatch, activityData.step]);
 
   const isSameDate = (date1, date2) => {
-    return moment(date1).isSame(moment(date2), 'day');
+    return moment(date1).isSame(moment(date2), "day");
   };
 
   function convertDecaCaloriesToWatchFormat(decaCalories) {
@@ -130,71 +130,71 @@ export function Activity({token, deviceAddress}) {
     const roundedKcal = Math.floor(kcal);
 
     // Pad to 4 digits
-    return roundedKcal.toString().padStart(4, '0');
+    return roundedKcal.toString().padStart(4, "0");
   }
-  useEffect(() => {
-    // fetchUserActivity();
+  // useEffect(() => {
+  //   // fetchUserActivity();
 
-    if (deviceAddress) {
-      watchSdkEmitter.addListener('stepChanged', async data => {
-        console.log('Watch step change detected:', data);
-        if (data?.step) {
-          const currentDate = new Date().toDateString();
-          setActivityData({
-            ...data,
-            calories: convertDecaCaloriesToWatchFormat(data?.calories),
-          });
-          if (
-            currentStepDataRef.current?.step == data?.step &&
-            isSameDate(data?.date, currentStepDataRef.current?.date)
-          ) {
-            return;
-          }
-          // Check if it's a new day
-          else if (currentDate !== lastResetDate) {
-            console.log('New day detected, resetting step count');
-            setLastResetDate(currentDate);
-            await saveActivityData({
-              step: data.step,
-              distance: 0,
-              calories: data.calories || 0,
-            });
-            dispatch(setCurrentStepData(data));
-            // await fetchUserActivity();
-            return;
-          }
+  //   if (deviceAddress) {
+  //     watchSdkEmitter.addListener('stepChanged', async data => {
+  //       console.log('Watch step change detected:', data);
+  //       if (data?.step) {
+  //         const currentDate = new Date().toDateString();
+  //         setActivityData({
+  //           ...data,
+  //           calories: convertDecaCaloriesToWatchFormat(data?.calories),
+  //         });
+  //         if (
+  //           currentStepDataRef.current?.step == data?.step &&
+  //           isSameDate(data?.date, currentStepDataRef.current?.date)
+  //         ) {
+  //           return;
+  //         }
+  //         // Check if it's a new day
+  //         else if (currentDate !== lastResetDate) {
+  //           console.log('New day detected, resetting step count');
+  //           setLastResetDate(currentDate);
+  //           await saveActivityData({
+  //             step: data.step,
+  //             distance: 0,
+  //             calories: data.calories || 0,
+  //           });
+  //           dispatch(setCurrentStepData(data));
+  //           // await fetchUserActivity();
+  //           return;
+  //         }
 
-          // Only update if watch steps are valid and different
-          else if (data.step !== activityData.step && data.step >= 0) {
-            const reasonableStepLimit = 100000; // Example limit
-            const validSteps = Math.min(data.step, reasonableStepLimit);
+  //         // Only update if watch steps are valid and different
+  //         else if (data.step !== activityData.step && data.step >= 0) {
+  //           const reasonableStepLimit = 100000; // Example limit
+  //           const validSteps = Math.min(data.step, reasonableStepLimit);
 
-            await saveActivityData({
-              step: validSteps,
-              distance: 0,
-              calories: data.calories || 0,
-            });
-            dispatch(setCurrentStepData(data));
-            // await fetchUserActivity();
-          } else {
-            console.log('Steps unchanged or invalid, skipping update');
-          }
-        }
-      });
+  //           await saveActivityData({
+  //             step: validSteps,
+  //             distance: 0,
+  //             calories: data.calories || 0,
+  //           });
+  //           dispatch(setCurrentStepData(data));
+  //           // await fetchUserActivity();
+  //         } else {
+  //           console.log('Steps unchanged or invalid, skipping update');
+  //         }
+  //       }
+  //     });
 
-      // const syncTimer = BackgroundTimer.setInterval(fetchUserActivity, 1000);
+  //     // const syncTimer = BackgroundTimer.setInterval(fetchUserActivity, 1000);
 
-      return () => {
-        console.log('Cleaning up watch SDK listener and timer');
-        watchSdkEmitter.removeAllListeners('stepChanged');
-        // BackgroundTimer.clearInterval(syncTimer);
-      };
-    }
-  }, [token, deviceAddress, activityData.step]);
+  //     return () => {
+  //       console.log('Cleaning up watch SDK listener and timer');
+  //       watchSdkEmitter.removeAllListeners('stepChanged');
+  //       // BackgroundTimer.clearInterval(syncTimer);
+  //     };
+  //   }
+  // }, [token, deviceAddress, activityData.step]);
 
   const saveActivityData = async (data: StepData) => {
     if (!token || !deviceAddress || !userId) {
-      console.log('Skipping save - missing required data:', {
+      console.log("Skipping save - missing required data:", {
         token,
         deviceAddress,
         userId,
@@ -214,13 +214,13 @@ export function Activity({token, deviceAddress}) {
       const response = await saveDeviceActivity(body, token);
 
       if (response?.status === 201) {
-        console.log('Activity saved successfully:', response.data);
+        console.log("Activity saved successfully:", response.data);
         dispatch(setDeviceActivity(data));
       } else {
-        console.warn('Unexpected response status:', response?.status);
+        console.warn("Unexpected response status:", response?.status);
       }
     } catch (error) {
-      console.error('Error saving activity data:', error);
+      console.error("Error saving activity data:", error);
     }
   };
 

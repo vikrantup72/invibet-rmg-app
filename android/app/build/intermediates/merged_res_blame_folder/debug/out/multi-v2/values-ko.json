@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.invibetLatest.app-mergeDebugResources-63:/values-ko/values-ko.xml",
+            "outputFile": "com.invibetLatest.app-mergeDebugResources-62:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/vikrantupadhyay/.gradle/caches/transforms-4/6deb4617161bcf69d953d43c02333f28/transformed/jetified-ucrop-2.2.6-native/res/values-ko/values-ko.xml",

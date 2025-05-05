@@ -1,11 +1,11 @@
-import {hp, wp} from '../../Utils/dimension';
-import CustomBtn from '../../components/CustomBtn';
-import AppImages from '../../constants/AppImages';
-import {baseColors} from '../../constants/colors';
-import AppFonts from '../../constants/fonts';
-import userData from '../../redux/Reducers/userData';
-import {setIsSkipped, setAuthRedux} from '../../redux/Reducers/userData';
-import React, {useState} from 'react';
+import { hp, wp } from "../../Utils/dimension";
+import CustomBtn from "../../components/CustomBtn";
+import AppImages from "../../constants/AppImages";
+import { baseColors } from "../../constants/colors";
+import AppFonts from "../../constants/fonts";
+import userData from "../../redux/Reducers/userData";
+import { setIsSkipped, setAuthRedux } from "../../redux/Reducers/userData";
+import React, { useState } from "react";
 import {
   View,
   Text,
@@ -15,33 +15,35 @@ import {
   StyleSheet,
   Pressable,
   SafeAreaView,
-} from 'react-native';
-import {RFValue} from 'react-native-responsive-fontsize';
-import {useDispatch} from 'react-redux';
+} from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
+import { useDispatch } from "react-redux";
 
-const AddDevice = ({navigation}) => {
-  console.log('i am at add device***********');
+const AddDevice = ({ navigation }) => {
+  console.log("i am at add device***********");
   //Redux
   const dispatch = useDispatch();
-  const [selectedFilter, setSelectedFilter] = useState('All');
+  const [selectedFilter, setSelectedFilter] = useState("All");
   const [productList] = useState([
     {
-      id: '1',
-      name: 'Devices',
+      id: "1",
+      name: "Devices",
       image: AppImages.AppWatch,
       category:
-        'Start tracking your activity and unlocking rewards effortlessly',
+        "Start tracking your activity and unlocking rewards effortlessly",
     },
   ]);
 
   const filteredProducts =
-    selectedFilter === 'All'
+    selectedFilter === "All"
       ? productList
-      : productList.filter(product => product.category === selectedFilter);
+      : productList.filter((product) => product.category === selectedFilter);
 
-  const renderItem = ({item}) => (
+  const renderItem = ({ item }) => (
     <View style={styles.card}>
-      <View style={{flexDirection: 'row', alignItems: 'center', width: '100%'}}>
+      <View
+        style={{ flexDirection: "row", alignItems: "center", width: "100%" }}
+      >
         <View style={styles.ImgContainer}>
           <Image source={item.image} style={styles.image} />
         </View>
@@ -50,13 +52,14 @@ const AddDevice = ({navigation}) => {
           <Text style={styles.category}>{item.category}</Text>
         </View>
       </View>
-      <Pressable
+      {/* <Pressable
         style={styles.btn_Container}
         onPress={() => {
-          navigation.navigate('DeviceSetup');
-        }}>
+          navigation.navigate("DeviceSetup");
+        }}
+      >
         <Text style={styles.Btn}>Add device</Text>
-      </Pressable>
+      </Pressable> */}
     </View>
   );
 
@@ -69,17 +72,17 @@ const AddDevice = ({navigation}) => {
       <FlatList
         data={filteredProducts}
         renderItem={renderItem}
-        keyExtractor={item => item.id}
+        keyExtractor={(item) => item.id}
         contentContainerStyle={styles.productList}
         showsVerticalScrollIndicator={false}
         alwaysBounceVertical={false}
       />
       <CustomBtn
-        btnName={'Buy a New Device'}
+        btnName={"Buy a New Device"}
         textStyle={{
           color: baseColors.theme,
           fontFamily: AppFonts.bold,
-          fontWeight: '600',
+          fontWeight: "600",
         }}
         btnStyle={{
           marginVertical: hp(1),
@@ -90,39 +93,40 @@ const AddDevice = ({navigation}) => {
         onPress={() => {
           dispatch(setAuthRedux(true));
           dispatch(setIsSkipped(false));
-          console.log('Redux Update===>===>===>', userData);
+          console.log("Redux Update===>===>===>", userData);
           setTimeout(() => {
-            navigation.navigate('bettingTabs', {screen: 'betting/shop'});
+            navigation.navigate("bettingTabs", { screen: "betting/shop" });
           }, 100);
         }}
       />
       <View
         style={{
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'center',
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
           marginBottom: hp(3),
-        }}>
+        }}
+      >
         <CustomBtn
-          btnName={'Skip for now '}
+          btnName={"Skip for now "}
           textStyle={{
             color: baseColors.theme,
             fontFamily: AppFonts.bold,
-            fontWeight: '600',
+            fontWeight: "600",
           }}
           btnStyle={{
             marginVertical: hp(1),
-            backgroundColor: 'transparent',
-            borderColor: 'transparent',
+            backgroundColor: "transparent",
+            borderColor: "transparent",
             borderWidth: 1,
             width: wp(80),
           }}
           icon_right={AppImages.arrow_right}
-          imgStyle_right={{width: wp(3.2), height: wp(3.2)}}
+          imgStyle_right={{ width: wp(3.2), height: wp(3.2) }}
           onPress={() => {
             setTimeout(() => {
               dispatch(setAuthRedux(true));
-              navigation.navigate('bettingTabs');
+              navigation.navigate("bettingTabs");
             }, 100);
           }}
         />
@@ -135,8 +139,8 @@ export default AddDevice;
 
 const styles = StyleSheet.create({
   topBar: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingVertical: hp(1),
     paddingHorizontal: 16,
   },
@@ -150,7 +154,7 @@ const styles = StyleSheet.create({
     fontSize: RFValue(16),
     color: baseColors.black,
     fontFamily: AppFonts.medium,
-    fontWeight: '600',
+    fontWeight: "600",
     marginBottom: hp(2),
   },
   selectedButton: {
@@ -159,7 +163,7 @@ const styles = StyleSheet.create({
   filterText: {
     color: baseColors.theme,
     fontSize: RFValue(14),
-    fontWeight: '600',
+    fontWeight: "600",
     fontFamily: AppFonts.medium,
   },
   selectedText: {
@@ -169,7 +173,7 @@ const styles = StyleSheet.create({
     paddingBottom: hp(3),
   },
   card: {
-    backgroundColor: '#FAF7FC',
+    backgroundColor: "#FAF7FC",
     borderRadius: 8,
     paddingVertical: hp(2.5),
     paddingHorizontal: wp(2),
@@ -181,7 +185,7 @@ const styles = StyleSheet.create({
     width: wp(15),
     height: wp(15),
     marginRight: wp(2),
-    resizeMode: 'contain',
+    resizeMode: "contain",
   },
   textContainer: {
     flex: 1,
@@ -190,7 +194,7 @@ const styles = StyleSheet.create({
   btn_Container: {
     paddingVertical: hp(1),
     paddingHorizontal: wp(2),
-    alignSelf: 'flex-end',
+    alignSelf: "flex-end",
   },
   Btn: {
     color: baseColors.theme,
@@ -217,7 +221,7 @@ const styles = StyleSheet.create({
     maxHeight: 20,
     maxWidth: 20,
     tintColor: baseColors.themeLight,
-    resizeMode: 'contain',
+    resizeMode: "contain",
     marginTop: -5,
   },
 });

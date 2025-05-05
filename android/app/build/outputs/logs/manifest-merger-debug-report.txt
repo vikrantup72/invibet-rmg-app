@@ -1,29 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:1:1-50:12
-MERGED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:1:1-50:12
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-49:12
-MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
-MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
-MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-47:12
-MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-clipboard_clipboard] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-49:12
+MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/95082a3dbf10f2046e701504fb51968a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.cashfree.pg:api:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/cbc19c68e4ccc8fdd19fa82dcd93c634/transformed/jetified-api-2.2.2/AndroidManifest.xml:2:1-23:12
@@ -139,27 +140,26 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vikrantupadhyay/.g
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948faccb591bccd68aff4f9cfb0339e9/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/635f0c8d3f001537675d06b1f9f108c0/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/ca8f4d9c382f26f06d8bf4877da99e1b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:2:1-46:12
 MERGED from [com.facebook.fbjni:fbjni:0.6.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/59faaf0ff6edff10f1f1432a86a47a17/transformed/jetified-fbjni-0.6.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/vikrantupadhyay/.gradle/caches/transforms-4/872c73f0dcd8db286f61a9c4ba1694b9/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:2:1-17:12
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:2:1-84:12
 MERGED from [org.greenrobot:eventbus:3.3.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/71f3e1f9784f80c4675abb2b6a8bd564/transformed/jetified-eventbus-3.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1467db5c5e55436386b2d18771a7a4b2/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:1:11-38
-		INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:1:11-38
+		INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:1:39-97
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:1:39-97
 uses-permission#android.permission.INTERNET
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:12:5-67
 MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:12:5-67
 MERGED from [com.cashfree.pg:network:1.0.6] /Users/vikrantupadhyay/.gradle/caches/transforms-4/37a13f8a7acf04ce2727570e3a52d21a/transformed/jetified-network-1.0.6/AndroidManifest.xml:10:5-67
@@ -173,145 +173,23 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /User
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:14:5-67
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:3:22-64
-uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:4:5-76
-MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
-MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-77
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-77
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:4:22-74
-uses-permission#android.permission.CAMERA
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:6:3-63
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:6:20-60
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:7:4-69
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:7:21-67
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:8:3-78
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:8:20-75
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:9:3-79
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-15:38
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-15:38
-	android:maxSdkVersion
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-35
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:9:20-76
-uses-feature#android.hardware.camera
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:10:3-58
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:10:17-55
-uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:13:5-68
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:10:5-12:38
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:10:5-12:38
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:9:5-68
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:9:5-68
-	android:maxSdkVersion
-		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:12:9-35
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:13:22-65
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:14:5-74
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-74
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-74
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:13:5-15:38
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:13:5-15:38
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:10:5-74
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:10:5-74
-	android:maxSdkVersion
-		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:15:9-35
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:14:22-71
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:15:5-81
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:15:22-78
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:16:5-79
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:11:5-79
-MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:11:5-79
-MERGED from [com.cashfree.pg:analytics:1.0.19] /Users/vikrantupadhyay/.gradle/caches/transforms-4/18d8266e61875d113e0aa4adcbe83727/transformed/jetified-analytics-1.0.19/AndroidManifest.xml:10:5-79
-MERGED from [com.cashfree.pg:analytics:1.0.19] /Users/vikrantupadhyay/.gradle/caches/transforms-4/18d8266e61875d113e0aa4adcbe83727/transformed/jetified-analytics-1.0.19/AndroidManifest.xml:10:5-79
-MERGED from [com.cashfree.pg:network:1.0.6] /Users/vikrantupadhyay/.gradle/caches/transforms-4/37a13f8a7acf04ce2727570e3a52d21a/transformed/jetified-network-1.0.6/AndroidManifest.xml:9:5-79
-MERGED from [com.cashfree.pg:network:1.0.6] /Users/vikrantupadhyay/.gradle/caches/transforms-4/37a13f8a7acf04ce2727570e3a52d21a/transformed/jetified-network-1.0.6/AndroidManifest.xml:9:5-79
-MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:24:5-79
-MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/c22bd632a95492df558622838a2854b3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/c22bd632a95492df558622838a2854b3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/b098f11d5b1a5a850188edb287c70e35/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/b098f11d5b1a5a850188edb287c70e35/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/780ed2234332fa4b1f5b679bd3ba18f2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/780ed2234332fa4b1f5b679bd3ba18f2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-79
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:16:22-76
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:19:3-75
-MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:5-77
-MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:5-77
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:20:5-77
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:20:5-77
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-77
-MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-77
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:19:20-72
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:21:1-75
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:13:5-79
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:13:5-79
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:21:18-72
-uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:22:1-69
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:22:5-25:31
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:22:5-25:31
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:11:5-73
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:11:5-73
-	android:usesPermissionFlags
-		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:24:9-55
-	tools:targetApi
-		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:25:9-28
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:22:18-66
-uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:23:1-72
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:21:5-76
-MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:21:5-76
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:12:5-76
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:12:5-76
-	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:23:18-69
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:3:22-64
 application
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:27:5-49:19
-MERGED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:27:5-49:19
-MERGED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:27:5-49:19
-MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
-MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-47:19
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-47:19
-MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
-MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-45:19
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-45:19
-MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:5:5-27:19
+MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-47:19
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-47:19
+MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-28:19
+MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-45:19
+MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-45:19
+MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:18:5-22:19
 MERGED from [com.cashfree.pg:api:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/cbc19c68e4ccc8fdd19fa82dcd93c634/transformed/jetified-api-2.2.2/AndroidManifest.xml:9:5-21:19
@@ -382,8 +260,6 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /User
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/780ed2234332fa4b1f5b679bd3ba18f2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:22:5-44:19
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:22:5-44:19
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/vikrantupadhyay/.gradle/caches/transforms-4/872c73f0dcd8db286f61a9c4ba1694b9/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/vikrantupadhyay/.gradle/caches/transforms-4/872c73f0dcd8db286f61a9c4ba1694b9/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:11:5-15:19
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:25:5-82:19
@@ -391,102 +267,104 @@ MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/cache
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1467db5c5e55436386b2d18771a7a4b2/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1467db5c5e55436386b2d18771a7a4b2/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:33:7-39
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:33:7-39
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:11:7-39
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/db983309b97bc9d0adbb54b23806db28/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:39:9-35
 	android:label
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:29:7-39
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:29:7-39
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:7:7-39
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:7:7-39
 	tools:ignore
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:8:9-48
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:8:9-48
 	android:roundIcon
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:31:7-52
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:31:7-52
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:9:7-52
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:9:7-52
 	tools:targetApi
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml:7:9-29
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:7:9-29
 	android:icon
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:30:7-41
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:30:7-41
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:8:7-41
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:32:7-34
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:32:7-34
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:34:7-38
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:34:7-38
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:35:10-45
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:13:10-45
 	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:28:7-38
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:28:7-38
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:6:7-38
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:6:7-38
 activity#com.invibetLatest.MainActivity
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:36:7-48:18
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:14:7-26:18
 	android:label
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:38:9-41
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:16:9-41
 	android:launchMode
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:40:9-40
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:18:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:41:9-51
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:exported
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:42:9-32
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:20:9-32
 	android:configChanges
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:39:9-118
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:17:9-118
 	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:37:9-37
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:15:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:44:9-47:25
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:22:9-25:25
 action#android.intent.action.MAIN
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:45:13-65
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:23:13-65
 	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:45:21-62
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:23:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:46:13-73
+ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:24:13-73
 	android:name
-		ADDED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/main/AndroidManifest.xml:46:23-70
+		ADDED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/main/AndroidManifest.xml:24:23-70
 uses-sdk
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
-MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
+MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-clipboard_clipboard] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-clipboard_clipboard] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_datetimepicker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_slider] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-community/slider/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-ble-plx] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-ble-plx/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-cashfree-pg-sdk] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-cashfree-pg-sdk/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-fast-image] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-linear-gradient] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:10:5-44
 MERGED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:10:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/95082a3dbf10f2046e701504fb51968a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
@@ -717,8 +595,6 @@ MERGED from [androidx.print:print:1.0.0] /Users/vikrantupadhyay/.gradle/caches/t
 MERGED from [androidx.print:print:1.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/635f0c8d3f001537675d06b1f9f108c0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/ca8f4d9c382f26f06d8bf4877da99e1b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/ca8f4d9c382f26f06d8bf4877da99e1b/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:5:5-7:41
-MERGED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.6.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/59faaf0ff6edff10f1f1432a86a47a17/transformed/jetified-fbjni-0.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fbjni:fbjni:0.6.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/59faaf0ff6edff10f1f1432a86a47a17/transformed/jetified-fbjni-0.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.soloader:soloader:0.10.5] /Users/vikrantupadhyay/.gradle/caches/transforms-4/872c73f0dcd8db286f61a9c4ba1694b9/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:7:5-9:41
@@ -732,13 +608,13 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/vikrantupadhyay/.
 	tools:overrideLibrary
 		ADDED from [com.cashfree.pg:ui:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/8270621b864b4199c31462a135d83985/transformed/jetified-ui-2.2.2/AndroidManifest.xml:9:9-66
 	android:targetSdkVersion
-		INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
-MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+ADDED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+MERGED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
 MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:23:5-68
 MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:24:5-68
@@ -748,87 +624,111 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:10:5-68
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:10:5-68
 	android:name
-		ADDED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-65
+		ADDED from [:react-native-background-timer] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-65
 provider#io.invertase.notifee.NotifeeInitProvider
-ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:40
+ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:40
 	android:authorities
-		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-73
+		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-73
 	android:exported
-		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+		ADDED from [:notifee_react-native] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:11:5-79
+MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:11:5-79
+MERGED from [com.cashfree.pg:analytics:1.0.19] /Users/vikrantupadhyay/.gradle/caches/transforms-4/18d8266e61875d113e0aa4adcbe83727/transformed/jetified-analytics-1.0.19/AndroidManifest.xml:10:5-79
+MERGED from [com.cashfree.pg:analytics:1.0.19] /Users/vikrantupadhyay/.gradle/caches/transforms-4/18d8266e61875d113e0aa4adcbe83727/transformed/jetified-analytics-1.0.19/AndroidManifest.xml:10:5-79
+MERGED from [com.cashfree.pg:network:1.0.6] /Users/vikrantupadhyay/.gradle/caches/transforms-4/37a13f8a7acf04ce2727570e3a52d21a/transformed/jetified-network-1.0.6/AndroidManifest.xml:9:5-79
+MERGED from [com.cashfree.pg:network:1.0.6] /Users/vikrantupadhyay/.gradle/caches/transforms-4/37a13f8a7acf04ce2727570e3a52d21a/transformed/jetified-network-1.0.6/AndroidManifest.xml:9:5-79
+MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/c22bd632a95492df558622838a2854b3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/c22bd632a95492df558622838a2854b3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/b098f11d5b1a5a850188edb287c70e35/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/b098f11d5b1a5a850188edb287c70e35/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/780ed2234332fa4b1f5b679bd3ba18f2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/780ed2234332fa4b1f5b679bd3ba18f2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-79
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
 meta-data#delivery_metrics_exported_to_big_query_enabled
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:37
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:37
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-34
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-34
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-74
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-74
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:36
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-33
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-64
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-64
 meta-data#firebase_messaging_notification_delegation_enabled
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:37
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:37
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-34
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-34
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-78
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-78
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-43:32
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-43:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-29
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-89
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-46:47
+ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-46:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-44
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-84
+		ADDED from [:react-native-firebase_messaging] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-84
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
 MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:54:9-63:19
 MERGED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:54:9-63:19
 MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/c22bd632a95492df558622838a2854b3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
@@ -840,91 +740,115 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/vikrantupadhyay/
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/2036c3c2b23d24bdc1c040753274e840/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/2036c3c2b23d24bdc1c040753274e840/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-32
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+		ADDED from [:react-native-firebase_app] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:10:5-12:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:10:5-12:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-74
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:13:5-15:38
+MERGED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from [:react-native-bluetooth-status] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-bluetooth-status/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-71
 queries
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
 MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:19:5-36:15
 MERGED from [com.cashfree.pg:core:2.2.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/948fb80d7b9e537f0169e4054e2426fc/transformed/jetified-core-2.2.2/AndroidManifest.xml:19:5-36:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-15:38
+	android:maxSdkVersion
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-65
 provider#com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
 	android:authorities
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
 	android:exported
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
 	android:resource
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
 	android:theme
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
 service#com.google.android.gms.metadata.ModuleDependencies
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-44:19
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-44:19
 	android:enabled
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
 	android:exported
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-78
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-78
 intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:29
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:29
 action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-94
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-94
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:25-91
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:25-91
 meta-data#photopicker_activity:0:required
-ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-43:36
+ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-43:36
 	android:value
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-33
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-33
 	android:name
-		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:17-63
+		ADDED from [:react-native-image-crop-picker] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:17-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/vikrantupadhyay/Project/invibet-rmg-app/android/app/src/debug/AndroidManifest.xml:2:1-9:12 reason: com.reactnative.ivpusic.imagepicker requested WRITE_EXTERNAL_STORAGE
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
 	android:exported
-		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/InvibetMoblie-RMG-APP/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+		ADDED from [:react-native-webview] /Users/vikrantupadhyay/Project/invibet-rmg-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from [com.facebook.react:react-android:0.74.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/63f52a246a9c46eb18df04e932acfb17/transformed/jetified-react-android-0.74.2-debug/AndroidManifest.xml:16:5-78
 	android:name
@@ -1127,6 +1051,12 @@ MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/cache
 MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:5-77
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-77
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:22-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.work:work-runtime:2.8.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/73ea9bee7a94774d3f16340926a33e5d/transformed/work-runtime-2.8.0/AndroidManifest.xml:29:9-37:20
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/95c617484371bb2115a09e03219f8497/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
@@ -1373,6 +1303,12 @@ ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/vikrantupad
 		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d7c0150ef4be5eeb62548f4bfe33bde2/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d7c0150ef4be5eeb62548f4bfe33bde2/transformed/jetified-play-services-auth-21.3.0/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:5-77
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-77
+MERGED from [app.notifee:core:202108261754] /Users/vikrantupadhyay/.gradle/caches/transforms-4/00454e9bb89eadafc8e3362b1d3071a0/transformed/jetified-core-202108261754/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:23:22-74
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-messaging:24.1.1] /Users/vikrantupadhyay/.gradle/caches/transforms-4/1de2a23787d39b46e58d87ee897805e6/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:26:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/b098f11d5b1a5a850188edb287c70e35/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
@@ -1545,6 +1481,18 @@ uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
 ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:19:5-86
 	android:name
 		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:19:29-83
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:22:5-25:31
+	android:usesPermissionFlags
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:24:9-55
+	tools:targetApi
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.polidea.rxandroidble2:rxandroidble:1.17.2] /Users/vikrantupadhyay/.gradle/caches/transforms-4/d02a097db5358fa8e659c879d24a4fa1/transformed/jetified-rxandroidble-1.17.2/AndroidManifest.xml:23:9-57
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.5.0] /Users/vikrantupadhyay/.gradle/caches/transforms-4/003e64e430e0583e732de0c31eb2b876/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
 	android:exported
@@ -1589,50 +1537,6 @@ ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vik
 		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
 	android:name
 		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/vikrantupadhyay/.gradle/caches/transforms-4/51c063a90ec4b7baff43946d90d61e6e/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:14:5-75
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:14:22-72
-uses-permission#android.permission.READ_CONTACTS
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:15:5-72
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:15:22-69
-uses-permission#android.permission.READ_CALL_LOG
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:17:5-72
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:17:22-69
-service#com.lhzl.blelib.service.NPNotificationService
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:25:9-32:19
-	android:exported
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:27:13-37
-	android:permission
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:28:13-87
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:26:13-73
-intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:29:13-31:29
-action#android.service.notification.NotificationListenerService
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:30:17-99
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:30:25-96
-service#com.lhzl.blelib.service.AliveJobService
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:35:9-38:72
-	android:exported
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:37:13-37
-	android:permission
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:38:13-69
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:36:13-67
-service#com.lhzl.blelib.service.MsgPushService
-ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:39:9-43:56
-	android:enabled
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:41:13-36
-	android:exported
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:42:13-37
-	android:foregroundServiceType
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:43:13-53
-	android:name
-		ADDED from [:LHZLSDK:] /Users/vikrantupadhyay/.gradle/caches/transforms-4/dfbec135bb62ee256ecf63538ebd1d3b/transformed/jetified-LHZLSDK/AndroidManifest.xml:40:13-66
 meta-data#com.facebook.soloader.enabled
 ADDED from [com.facebook.soloader:soloader:0.10.5] /Users/vikrantupadhyay/.gradle/caches/transforms-4/872c73f0dcd8db286f61a9c4ba1694b9/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
 	android:value

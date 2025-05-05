@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.invibetLatest.app-mergeDebugResources-63:/values-lt/values-lt.xml",
+            "outputFile": "com.invibetLatest.app-mergeDebugResources-62:/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/Users/vikrantupadhyay/.gradle/caches/transforms-4/385d0169958fcd6c1db46b6199b3e4eb/transformed/jetified-play-services-base-18.5.0/res/values-lt/values.xml",

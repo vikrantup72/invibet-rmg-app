@@ -2538,7 +2538,6 @@
     <string name="submit_otp_in">Submitting OTP in</string>
     <string description="provides a summary of current conditions, settings, or state, such as the current temperature in the Weather app" name="summary_description">Summary</string>
     <string description="container for a set of tabs" name="tablist_description">Tab List</string>
-    <string name="text_running">Running</string>
     <string description="a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point" name="timer_description">Timer</string>
     <string description="a collection of commonly used function buttons or controls represented in a compact visual form" name="toolbar_description">Tool Bar</string>
     <string name="ucrop_crop">Crop</string>

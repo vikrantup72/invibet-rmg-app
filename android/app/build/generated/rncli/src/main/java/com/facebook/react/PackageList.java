@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import io.invertase.notifee.NotifeePackage;
 // @react-native-async-storage/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-clipboard/clipboard
+import com.reactnativecommunity.clipboard.ClipboardPackage;
 // @react-native-community/datetimepicker
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 // @react-native-community/slider
@@ -96,6 +98,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new NotifeePackage(),
       new AsyncStoragePackage(),
+      new ClipboardPackage(),
       new RNDateTimePickerPackage(),
       new ReactSliderPackage(),
       new ReactNativeFirebaseAppPackage(),
