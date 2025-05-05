@@ -12,12 +12,12 @@ buildscript {
         mavenCentral()
         maven {
             url 'https://dl.bintray.com/cashfree/maven'
+            url 'https://gitlab.com/api/v4/projects/43396247/packages/maven'
         }
     }
     dependencies {
         // firebase
          classpath 'com.google.gms:google-services:4.4.2'
-
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")

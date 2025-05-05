@@ -111,24 +111,12 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
-
-     packagingOptions {
-        jniLibs {
-            useLegacyPackaging true
-        }
-    }
-
-		repositories {
-        flatDir {
-            dirs 'libs'
-        }
-    }
 }
 
 dependencies {
     implementation("com.facebook.react:react-android")
     implementation 'com.google.code.gson:gson:2.10.1' // Use the latest version
-
+    implementation "com.spikeapi.sdk:spike-sdk:4.0.12-beta.2"
 		// for background sync stuff
 		implementation project(':react-native-background-timer')
 
