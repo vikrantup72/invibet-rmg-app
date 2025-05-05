@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317308507674",
+    "project_id": "invibet-backend",
+    "storage_bucket": "invibet-backend.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317308507674:android:95e813187a1ed3eb8b23a3",
+        "android_client_info": {
+          "package_name": "com.invibetLatest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5P7yoi0Be4fboeGYjjoJVkZp9hTyTx18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

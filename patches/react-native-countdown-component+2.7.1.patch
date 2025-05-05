@@ -1,0 +1,75 @@
+diff --git a/node_modules/react-native-countdown-component/index.js b/node_modules/react-native-countdown-component/index.js
+index b546b82..13b4212 100644
+--- a/node_modules/react-native-countdown-component/index.js
++++ b/node_modules/react-native-countdown-component/index.js
+@@ -51,12 +51,14 @@ class CountDown extends React.Component {
+   }
+ 
+   componentDidMount() {
+-    AppState.addEventListener('change', this._handleAppStateChange);
++    // AppState.addEventListener('change', this._handleAppStateChange);
++    this.appStateSubscription = AppState.addEventListener('change', this._handleAppStateChange);
+   }
+ 
+   componentWillUnmount() {
+     clearInterval(this.timer);
+-    AppState.removeEventListener('change', this._handleAppStateChange);
++    // AppState.removeEventListener('change', this._handleAppStateChange);
++    this.appStateSubscription && this.appStateSubscription.remove();
+   }
+ 
+   componentDidUpdate(prevProps, prevState) {
+@@ -135,7 +137,6 @@ class CountDown extends React.Component {
+     return (
+       <View style={[
+         styles.digitCont,        
+-        {width: size * 2.3, height: size * 2.6},
+         digitStyle,
+       ]}>
+         <Text style={[
+@@ -150,12 +151,12 @@ class CountDown extends React.Component {
+   };
+ 
+   renderLabel = label => {
+-    const {timeLabelStyle, size} = this.props;
++    const {timeLabelStyle, size,digitTxtStyle} = this.props;
+     if (label) {
+       return (
+         <Text style={[
+-          styles.timeTxt,
+-          {fontSize: size / 1.8},
++          styles.digitTxt,
++          {fontSize: size},
+           timeLabelStyle,
+         ]}>
+           {label}
+@@ -168,9 +169,9 @@ class CountDown extends React.Component {
+     return (
+       <View style={styles.doubleDigitCont}>
+         <View style={styles.timeInnerCont}>
+-          {this.renderDigit(digits)}
++          {this.renderDigit(digits)}{this.renderLabel(label)}
+         </View>
+-        {this.renderLabel(label)}
++       
+       </View>
+     );
+   };
+@@ -184,7 +185,7 @@ class CountDown extends React.Component {
+           {fontSize: size * 1.2},
+           separatorStyle,
+         ]}>
+-          {':'}
++           {' : '}
+         </Text>
+       </View>
+     );
+@@ -252,7 +253,7 @@ const styles = StyleSheet.create({
+   },
+   digitCont: {
+     borderRadius: 5,
+-    marginHorizontal: 2,
++    marginHorizontal: 1,
+     alignItems: 'center',
+     justifyContent: 'center',
+   },

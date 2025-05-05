@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable assets_images_watches_tychee60
+drawable assets_images_watches_w10
+drawable assets_images_watches_w30
+drawable assets_images_watches_w50
+drawable assets_images_watches_w502
+drawable assets_images_watches_w60
+drawable assets_images_watches_w90
+drawable node_modules_reactnavigation_elements_src_assets_backicon
+drawable node_modules_reactnavigation_elements_src_assets_backiconmask
+drawable rn_edit_text_material
+id device_scan_address_tv
+id device_scan_name_tv
+id scan_btn
+id scan_device_list
+integer react_native_dev_server_port
+layout activity_ble_scan
+layout item_device_scan
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style AppTheme

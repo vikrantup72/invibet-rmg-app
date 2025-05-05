@@ -1,0 +1,6 @@
+framework module Pods_invibet {
+  umbrella header "Pods-invibet-umbrella.h"
+
+  export *
+  module * { export * }
+}

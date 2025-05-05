@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* invibetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* invibetTests.m */; };
+		088D2C22C1D14F3D8DC834C9 /* DMSans_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C88A3D3CF5CC4956878C74DE /* DMSans_18pt-Bold.ttf */; };
+		1338522B9EFC41EDBF1ABDB6 /* DMSans_24pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECF475843A7E4A76B2D0161A /* DMSans_24pt-LightItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14DFD9D017574CACAC926E01 /* DMSans_36pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F8EA9C3B1044F549E48D988 /* DMSans_36pt-Black.ttf */; };
+		1514F56889A8492397D00C72 /* DMSans_24pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCCF01C5B94317BF796065 /* DMSans_24pt-ExtraBoldItalic.ttf */; };
+		19D7F4034FC84208ADBCDAC8 /* DMSans_36pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E9224E067B6440BBA175330 /* DMSans_36pt-SemiBoldItalic.ttf */; };
+		1AF1239CC3A14CB988D6087B /* DMSans_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777FE29B447D4DBCB279159B /* DMSans_18pt-BoldItalic.ttf */; };
+		1BB2DD5FE57C49F39236C4DE /* DMSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFF335CBDDD242699B53DFF9 /* DMSans-Thin.ttf */; };
+		1CE545F1A31C4AC489D9C397 /* DMSans_18pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A99C91F37B4B4F209AF4DC90 /* DMSans_18pt-ExtraLightItalic.ttf */; };
+		1E3066D6BA0843449A831C3A /* DMSans_24pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75FC76303E6448C08A9EAA3A /* DMSans_24pt-Thin.ttf */; };
+		20CE64D613DC474E808270B9 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6D11E6E183C4F599023F140 /* DMSans-MediumItalic.ttf */; };
+		271BFD56825645B4BA8E2972 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B73944A163B949FFA84CD36A /* DMSans-BoldItalic.ttf */; };
+		2CBB9C61820341B9A797004A /* DMSans_36pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D88B67230CEA4D7F99358178 /* DMSans_36pt-ThinItalic.ttf */; };
+		2E1CC2246D124E3EA81D4565 /* DMSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0724256E665E49BA9637C1A7 /* DMSans-BlackItalic.ttf */; };
+		2FAF1F93BAAC494DAC4A5D5E /* DMSans_24pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02114F22973E48998A8C7A96 /* DMSans_24pt-Medium.ttf */; };
+		324433AADBBD4D0F9D605408 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25A24F34404458B82D23C4A /* DMSans-Italic.ttf */; };
+		3FD5721328104FB49574F3CC /* DMSans_24pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 761F672984B14B7480149778 /* DMSans_24pt-ExtraLight.ttf */; };
+		4362782978D34496ADB834A4 /* DMSans_24pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58739C2662964CF380A0CCB5 /* DMSans_24pt-Italic.ttf */; };
+		464B795311CD8B8F3FABE731 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4F0517FFE073939D3646E7D0 /* PrivacyInfo.xcprivacy */; };
+		466650C9321C4A37AB701343 /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A55AC9864425BE456BF1 /* SpaceMono-Regular.ttf */; };
+		46858531892A4BC982D36B8C /* DMSans_36pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27B853EBE83646EF8D96F1E5 /* DMSans_36pt-MediumItalic.ttf */; };
+		48B92B0E1ACC416097F3761D /* DMSans_36pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08993EADDF4B4083B385EB0B /* DMSans_36pt-ExtraLightItalic.ttf */; };
+		4EB64E9EAEE349A4B8AE7168 /* DMSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 181C1C01AE924DE4AB90346B /* DMSans-Black.ttf */; };
+		53A6474F9C31483EA03A9253 /* DMSans_24pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 311A3F5AB23143B6AA19FA64 /* DMSans_24pt-Light.ttf */; };
+		594851FF7D4A49528D91D250 /* DMSans_24pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6586E09810534DAAB4014EC5 /* DMSans_24pt-ExtraBold.ttf */; };
+		5B77AAF7B572443D999390CD /* DMSans_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A14B041F9E8345C2A1DAAFC0 /* DMSans_18pt-Italic.ttf */; };
+		5E39A78CDB984A73A35B2322 /* DMSans_36pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D8BB88BEF6438AB4FE48F0 /* DMSans_36pt-SemiBold.ttf */; };
+		718E6BB3A240414588BCDC36 /* DMSans_36pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B64F4C8ED75435794E0BAB0 /* DMSans_36pt-Italic.ttf */; };
+		723B7441F7C84FA5A1CBADA4 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DBDEF0C17D44B24BCAC418C /* DMSans-Medium.ttf */; };
+		74A1393C956242A1B24E5544 /* DMSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54A030B4401A4E42A893FB64 /* DMSans-LightItalic.ttf */; };
+		7AA60FF936F346BE856FACFA /* DMSans_36pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32526AA47FB44D9690691A7A /* DMSans_36pt-ExtraLight.ttf */; };
+		7F21C57063824F1E9FB382A2 /* DMSans_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D6EB53B8DA409B9761D367 /* DMSans_18pt-SemiBoldItalic.ttf */; };
+		7FC6A5E5C80B456D8BBABDD4 /* DMSans_24pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 157470FA868649AFA0BF6670 /* DMSans_24pt-Regular.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8267D5E70D9B42B99838124C /* DMSans_36pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26A4196114A4E70B04EF97F /* DMSans_36pt-LightItalic.ttf */; };
+		8298B9B60E0A4083AE20D05D /* DMSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0BE4E3915A4C679C280AC3 /* DMSans-ExtraLight.ttf */; };
+		848FC71D40C64DD4911AFC8B /* DMSans_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB59B903F704951913BD127 /* DMSans_18pt-ExtraBoldItalic.ttf */; };
+		8B1E8819A2374347B98A95F1 /* DMSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D22E1855A3404049BFD889DE /* DMSans-SemiBold.ttf */; };
+		8B2659E5979A4986A9097595 /* DMSans_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E31F2007ED5146CBB6673913 /* DMSans_18pt-Light.ttf */; };
+		8BFE914B6AD84799A29D731A /* DMSans_18pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F7B42E854EC403DBD4E3A2C /* DMSans_18pt-ThinItalic.ttf */; };
+		8C183AD3E85D4B4D905C8E76 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C7612D395A443CC86EB2FA9 /* DMSans-Bold.ttf */; };
+		90E69A86E1D14ABB88B5D142 /* DMSans_36pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E83318B999044CEF8DA9E58A /* DMSans_36pt-ExtraBoldItalic.ttf */; };
+		9510B4B1DEC14DAC845ADC50 /* DMSans_24pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C1616ECE77E441085332761 /* DMSans_24pt-ThinItalic.ttf */; };
+		9C642957F9B6477FBA92296D /* DMSans_36pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7188B2EC1AE14907BF23EF60 /* DMSans_36pt-ExtraBold.ttf */; };
+		A1E12F5334E84501A136DA5E /* DMSans_18pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E374B8F2167C4B24B86870B3 /* DMSans_18pt-LightItalic.ttf */; };
+		A82458C62A2D479E9C311CD1 /* DMSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E8549C273D448FBB2AA0A8D /* DMSans-ExtraBoldItalic.ttf */; };
+		ADF0EC1000D64AC7AF51FFD7 /* DMSans_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB3EEED570C6453098851338 /* DMSans_18pt-Black.ttf */; };
+		AE204CCB1AD148DA9D39AE9D /* DMSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 578254A4A6014F268E98A17A /* DMSans-Light.ttf */; };
+		B01FF637B96E4D92A4E79A11 /* DMSans_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627FE3095B2941828D8CE785 /* DMSans_18pt-Regular.ttf */; };
+		B0559C8238CF42D0AA070543 /* DMSans_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45DCF5002C0D490C8E733FD4 /* DMSans_18pt-SemiBold.ttf */; };
+		B334FC13994A416A803EC062 /* DMSans_36pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3632208661204BC0AAF0C480 /* DMSans_36pt-Regular.ttf */; };
+		B3FF2AF58DC84C9FA7F0F15F /* DMSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6255010D18CD4B2599B345B0 /* DMSans-SemiBoldItalic.ttf */; };
+		B5AC01F29B094CCCBA1D6A19 /* DMSans_36pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0B7F4AD69484DE38D32AB62 /* DMSans_36pt-Bold.ttf */; };
+		B6474E48567F488E83B75924 /* DMSans_24pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C76D2CFE30FF4366A8750BFA /* DMSans_24pt-SemiBoldItalic.ttf */; };
+		B8A7F0D2EB364F54A482C8F2 /* DMSans_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D13E601D08141D9BAC35552 /* DMSans_18pt-MediumItalic.ttf */; };
+		C1BC5DB2FCBD4930B97F60E2 /* DMSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DED578CA142BA97B266B0 /* DMSans-ExtraLightItalic.ttf */; };
+		C1EBB84ABE4C416F88EE88EB /* DMSans_18pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5771B22709654F8CA954C269 /* DMSans_18pt-ExtraLight.ttf */; };
+		C6A9C24C9F1D42638D65FF9D /* DMSans_24pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 931D93277F59440581920D3F /* DMSans_24pt-BlackItalic.ttf */; };
+		CAE2C8D23FD54BF286DF2AF2 /* DMSans_24pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA190BD209ED40E2883ABBB4 /* DMSans_24pt-ExtraLightItalic.ttf */; };
+		CB1BB2E0CAE84E418703F6FF /* DMSans_36pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C3653987D1842E287A55960 /* DMSans_36pt-Medium.ttf */; };
+		CBE7AC218C5B436280E6B842 /* DMSans_18pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D726FCF1148945CD8EE5F45A /* DMSans_18pt-Thin.ttf */; };
+		CC703146821F464D8BEC001C /* DMSans_24pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A4E196072054ED99EB33302 /* DMSans_24pt-Black.ttf */; };
+		CD9D72458245495FA6EE01BB /* DMSans_36pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F870D288755F4637BB57BF54 /* DMSans_36pt-Thin.ttf */; };
+		CE37BD215B241AB1CDED611F /* Pods_invibet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210E775AEC75DBFA82AE621A /* Pods_invibet.framework */; };
+		D312DCC367A842ECA124D842 /* DMSans_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A423B3A4443B91E6E015 /* DMSans_18pt-Medium.ttf */; };
+		E23B633030E0482195263977 /* DMSans_36pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 979B4073FF2B40059E90C721 /* DMSans_36pt-BoldItalic.ttf */; };
+		E3AD91FA6DF54BF083018DBC /* DMSans_24pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC111D4085A14383A244B420 /* DMSans_24pt-MediumItalic.ttf */; };
+		E43C44A9EA8741A48B14E88F /* DMSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79FED77139C64838B5813A30 /* DMSans-ThinItalic.ttf */; };
+		E469E6DD7BED4EE4B497533C /* DMSans_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2AED455C5D24BF3A1AF9000 /* DMSans_18pt-ExtraBold.ttf */; };
+		E544E3EDEBC2450FA5DB8B4F /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7157595D72DD42089C5DF318 /* DMSans-Regular.ttf */; };
+		E6D85A792322CC516C527AA0 /* Pods_invibet_invibetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 675784A29FD73FC111826364 /* Pods_invibet_invibetTests.framework */; };
+		E92AAD8DA61D478ABC63774D /* DMSans_24pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7711273072744E6BA2E27DAD /* DMSans_24pt-Bold.ttf */; };
+		EB289D42BA6D44629AB62DE3 /* DMSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D6183318C704D74A2252275 /* DMSans-ExtraBold.ttf */; };
+		EC5464105FEA43DB8DD87092 /* DMSans_24pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56187BA21CBA4F2883254CC2 /* DMSans_24pt-SemiBold.ttf */; };
+		F3D5637B0D6A4A00B4204A4B /* DMSans_36pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 611A38E60D544E2084577364 /* DMSans_36pt-Light.ttf */; };
+		F3F354F3A4D54D5B8266918D /* DMSans_36pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220FDA2D1D8943DD928DAA35 /* DMSans_36pt-BlackItalic.ttf */; };
+		F73169D0B6E64AF38EF6BF5C /* DMSans_24pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C06EE82C8884143A9F53B46 /* DMSans_24pt-BoldItalic.ttf */; };
+		FC48D55128044D9E8DD03479 /* DMSans_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FEA433F69254456B723C3F1 /* DMSans_18pt-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = invibet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* invibetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invibetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* invibetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = invibetTests.m; sourceTree = "<group>"; };
+		02114F22973E48998A8C7A96 /* DMSans_24pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Medium.ttf"; path = "../assets/fonts/DMSans_24pt-Medium.ttf"; sourceTree = "<group>"; };
+		0724256E665E49BA9637C1A7 /* DMSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BlackItalic.ttf"; path = "../assets/fonts/DMSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		08993EADDF4B4083B385EB0B /* DMSans_36pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* invibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = invibet/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = invibet/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = invibet/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = invibet/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = invibet/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = invibet/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		157470FA868649AFA0BF6670 /* DMSans_24pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Regular.ttf"; path = "../assets/fonts/DMSans_24pt-Regular.ttf"; sourceTree = "<group>"; };
+		181C1C01AE924DE4AB90346B /* DMSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Black.ttf"; path = "../assets/fonts/DMSans-Black.ttf"; sourceTree = "<group>"; };
+		1DBDEF0C17D44B24BCAC418C /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		210E775AEC75DBFA82AE621A /* Pods_invibet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_invibet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220FDA2D1D8943DD928DAA35 /* DMSans_36pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_36pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		27B853EBE83646EF8D96F1E5 /* DMSans_36pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_36pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2C1616ECE77E441085332761 /* DMSans_24pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2E8549C273D448FBB2AA0A8D /* DMSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2F8EA9C3B1044F549E48D988 /* DMSans_36pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Black.ttf"; path = "../assets/fonts/DMSans_36pt-Black.ttf"; sourceTree = "<group>"; };
+		304313187BBA63A4B8B1AEE1 /* Pods-invibet-invibetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibet-invibetTests.debug.xcconfig"; path = "Target Support Files/Pods-invibet-invibetTests/Pods-invibet-invibetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3072368CD60529EAD60E7710 /* Pods-invibet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibet.release.xcconfig"; path = "Target Support Files/Pods-invibet/Pods-invibet.release.xcconfig"; sourceTree = "<group>"; };
+		311A3F5AB23143B6AA19FA64 /* DMSans_24pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Light.ttf"; path = "../assets/fonts/DMSans_24pt-Light.ttf"; sourceTree = "<group>"; };
+		32526AA47FB44D9690691A7A /* DMSans_36pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3632208661204BC0AAF0C480 /* DMSans_36pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Regular.ttf"; path = "../assets/fonts/DMSans_36pt-Regular.ttf"; sourceTree = "<group>"; };
+		3B64F4C8ED75435794E0BAB0 /* DMSans_36pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Italic.ttf"; path = "../assets/fonts/DMSans_36pt-Italic.ttf"; sourceTree = "<group>"; };
+		3F4DED578CA142BA97B266B0 /* DMSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		45DCF5002C0D490C8E733FD4 /* DMSans_18pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D6183318C704D74A2252275 /* DMSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraBold.ttf"; path = "../assets/fonts/DMSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4F0517FFE073939D3646E7D0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = invibet/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		54A030B4401A4E42A893FB64 /* DMSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-LightItalic.ttf"; path = "../assets/fonts/DMSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		56187BA21CBA4F2883254CC2 /* DMSans_24pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_24pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		5771B22709654F8CA954C269 /* DMSans_18pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		578254A4A6014F268E98A17A /* DMSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Light.ttf"; path = "../assets/fonts/DMSans-Light.ttf"; sourceTree = "<group>"; };
+		58739C2662964CF380A0CCB5 /* DMSans_24pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Italic.ttf"; path = "../assets/fonts/DMSans_24pt-Italic.ttf"; sourceTree = "<group>"; };
+		59D6EB53B8DA409B9761D367 /* DMSans_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		5A4E196072054ED99EB33302 /* DMSans_24pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Black.ttf"; path = "../assets/fonts/DMSans_24pt-Black.ttf"; sourceTree = "<group>"; };
+		5C06EE82C8884143A9F53B46 /* DMSans_24pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5C0BE4E3915A4C679C280AC3 /* DMSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraLight.ttf"; path = "../assets/fonts/DMSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5D06955BE8820A9279970EFB /* Pods-invibetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibetTests.release.xcconfig"; path = "Target Support Files/Pods-invibetTests/Pods-invibetTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E86A423B3A4443B91E6E015 /* DMSans_18pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Medium.ttf"; path = "../assets/fonts/DMSans_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		5F7B42E854EC403DBD4E3A2C /* DMSans_18pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		611A38E60D544E2084577364 /* DMSans_36pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Light.ttf"; path = "../assets/fonts/DMSans_36pt-Light.ttf"; sourceTree = "<group>"; };
+		6255010D18CD4B2599B345B0 /* DMSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		627FE3095B2941828D8CE785 /* DMSans_18pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Regular.ttf"; path = "../assets/fonts/DMSans_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		6586E09810534DAAB4014EC5 /* DMSans_24pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		675784A29FD73FC111826364 /* Pods_invibet_invibetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_invibet_invibetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3653987D1842E287A55960 /* DMSans_36pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Medium.ttf"; path = "../assets/fonts/DMSans_36pt-Medium.ttf"; sourceTree = "<group>"; };
+		7157595D72DD42089C5DF318 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		7188B2EC1AE14907BF23EF60 /* DMSans_36pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		75FC76303E6448C08A9EAA3A /* DMSans_24pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Thin.ttf"; path = "../assets/fonts/DMSans_24pt-Thin.ttf"; sourceTree = "<group>"; };
+		761F672984B14B7480149778 /* DMSans_24pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7711273072744E6BA2E27DAD /* DMSans_24pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Bold.ttf"; path = "../assets/fonts/DMSans_24pt-Bold.ttf"; sourceTree = "<group>"; };
+		777FE29B447D4DBCB279159B /* DMSans_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		79FED77139C64838B5813A30 /* DMSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ThinItalic.ttf"; path = "../assets/fonts/DMSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7BBCCF01C5B94317BF796065 /* DMSans_24pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7D13E601D08141D9BAC35552 /* DMSans_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_18pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = invibet/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887D7EBAEBA9E1899130E166 /* Pods-invibet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibet.debug.xcconfig"; path = "Target Support Files/Pods-invibet/Pods-invibet.debug.xcconfig"; sourceTree = "<group>"; };
+		931D93277F59440581920D3F /* DMSans_24pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_24pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		979B4073FF2B40059E90C721 /* DMSans_36pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9C7612D395A443CC86EB2FA9 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		9E9224E067B6440BBA175330 /* DMSans_36pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9FEA433F69254456B723C3F1 /* DMSans_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_18pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A14B041F9E8345C2A1DAAFC0 /* DMSans_18pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Italic.ttf"; path = "../assets/fonts/DMSans_18pt-Italic.ttf"; sourceTree = "<group>"; };
+		A99C91F37B4B4F209AF4DC90 /* DMSans_18pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B3D8BB88BEF6438AB4FE48F0 /* DMSans_36pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_36pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		B73944A163B949FFA84CD36A /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BA190BD209ED40E2883ABBB4 /* DMSans_24pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		BD9894E11D922159E4453AA2 /* Pods-invibetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibetTests.debug.xcconfig"; path = "Target Support Files/Pods-invibetTests/Pods-invibetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F0A55AC9864425BE456BF1 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SpaceMono-Regular.ttf"; path = "../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
+		C76D2CFE30FF4366A8750BFA /* DMSans_24pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C88A3D3CF5CC4956878C74DE /* DMSans_18pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Bold.ttf"; path = "../assets/fonts/DMSans_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		CD1124734D59E36ED797D77B /* Pods-invibet-invibetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-invibet-invibetTests.release.xcconfig"; path = "Target Support Files/Pods-invibet-invibetTests/Pods-invibet-invibetTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFF335CBDDD242699B53DFF9 /* DMSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Thin.ttf"; path = "../assets/fonts/DMSans-Thin.ttf"; sourceTree = "<group>"; };
+		D22E1855A3404049BFD889DE /* DMSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-SemiBold.ttf"; path = "../assets/fonts/DMSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D25A24F34404458B82D23C4A /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		D26A4196114A4E70B04EF97F /* DMSans_36pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_36pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		D726FCF1148945CD8EE5F45A /* DMSans_18pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Thin.ttf"; path = "../assets/fonts/DMSans_18pt-Thin.ttf"; sourceTree = "<group>"; };
+		D88B67230CEA4D7F99358178 /* DMSans_36pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E0B7F4AD69484DE38D32AB62 /* DMSans_36pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Bold.ttf"; path = "../assets/fonts/DMSans_36pt-Bold.ttf"; sourceTree = "<group>"; };
+		E31F2007ED5146CBB6673913 /* DMSans_18pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Light.ttf"; path = "../assets/fonts/DMSans_18pt-Light.ttf"; sourceTree = "<group>"; };
+		E374B8F2167C4B24B86870B3 /* DMSans_18pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_18pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		E6D11E6E183C4F599023F140 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E83318B999044CEF8DA9E58A /* DMSans_36pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EB3EEED570C6453098851338 /* DMSans_18pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Black.ttf"; path = "../assets/fonts/DMSans_18pt-Black.ttf"; sourceTree = "<group>"; };
+		ECF475843A7E4A76B2D0161A /* DMSans_24pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_24pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEB59B903F704951913BD127 /* DMSans_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2AED455C5D24BF3A1AF9000 /* DMSans_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F870D288755F4637BB57BF54 /* DMSans_36pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Thin.ttf"; path = "../assets/fonts/DMSans_36pt-Thin.ttf"; sourceTree = "<group>"; };
+		FC111D4085A14383A244B420 /* DMSans_24pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_24pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D85A792322CC516C527AA0 /* Pods_invibet_invibetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE37BD215B241AB1CDED611F /* Pods_invibet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* invibetTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* invibetTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = invibetTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* invibet */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				4F0517FFE073939D3646E7D0 /* PrivacyInfo.xcprivacy */,
+			);
+			name = invibet;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				210E775AEC75DBFA82AE621A /* Pods_invibet.framework */,
+				675784A29FD73FC111826364 /* Pods_invibet_invibetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE135FA3BD34D2CBB5CEB96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A55AC9864425BE456BF1 /* SpaceMono-Regular.ttf */,
+				181C1C01AE924DE4AB90346B /* DMSans-Black.ttf */,
+				0724256E665E49BA9637C1A7 /* DMSans-BlackItalic.ttf */,
+				9C7612D395A443CC86EB2FA9 /* DMSans-Bold.ttf */,
+				B73944A163B949FFA84CD36A /* DMSans-BoldItalic.ttf */,
+				4D6183318C704D74A2252275 /* DMSans-ExtraBold.ttf */,
+				2E8549C273D448FBB2AA0A8D /* DMSans-ExtraBoldItalic.ttf */,
+				5C0BE4E3915A4C679C280AC3 /* DMSans-ExtraLight.ttf */,
+				3F4DED578CA142BA97B266B0 /* DMSans-ExtraLightItalic.ttf */,
+				D25A24F34404458B82D23C4A /* DMSans-Italic.ttf */,
+				578254A4A6014F268E98A17A /* DMSans-Light.ttf */,
+				54A030B4401A4E42A893FB64 /* DMSans-LightItalic.ttf */,
+				1DBDEF0C17D44B24BCAC418C /* DMSans-Medium.ttf */,
+				E6D11E6E183C4F599023F140 /* DMSans-MediumItalic.ttf */,
+				7157595D72DD42089C5DF318 /* DMSans-Regular.ttf */,
+				D22E1855A3404049BFD889DE /* DMSans-SemiBold.ttf */,
+				6255010D18CD4B2599B345B0 /* DMSans-SemiBoldItalic.ttf */,
+				CFF335CBDDD242699B53DFF9 /* DMSans-Thin.ttf */,
+				79FED77139C64838B5813A30 /* DMSans-ThinItalic.ttf */,
+				EB3EEED570C6453098851338 /* DMSans_18pt-Black.ttf */,
+				9FEA433F69254456B723C3F1 /* DMSans_18pt-BlackItalic.ttf */,
+				C88A3D3CF5CC4956878C74DE /* DMSans_18pt-Bold.ttf */,
+				777FE29B447D4DBCB279159B /* DMSans_18pt-BoldItalic.ttf */,
+				F2AED455C5D24BF3A1AF9000 /* DMSans_18pt-ExtraBold.ttf */,
+				EEB59B903F704951913BD127 /* DMSans_18pt-ExtraBoldItalic.ttf */,
+				5771B22709654F8CA954C269 /* DMSans_18pt-ExtraLight.ttf */,
+				A99C91F37B4B4F209AF4DC90 /* DMSans_18pt-ExtraLightItalic.ttf */,
+				A14B041F9E8345C2A1DAAFC0 /* DMSans_18pt-Italic.ttf */,
+				E31F2007ED5146CBB6673913 /* DMSans_18pt-Light.ttf */,
+				E374B8F2167C4B24B86870B3 /* DMSans_18pt-LightItalic.ttf */,
+				5E86A423B3A4443B91E6E015 /* DMSans_18pt-Medium.ttf */,
+				7D13E601D08141D9BAC35552 /* DMSans_18pt-MediumItalic.ttf */,
+				627FE3095B2941828D8CE785 /* DMSans_18pt-Regular.ttf */,
+				45DCF5002C0D490C8E733FD4 /* DMSans_18pt-SemiBold.ttf */,
+				59D6EB53B8DA409B9761D367 /* DMSans_18pt-SemiBoldItalic.ttf */,
+				D726FCF1148945CD8EE5F45A /* DMSans_18pt-Thin.ttf */,
+				5F7B42E854EC403DBD4E3A2C /* DMSans_18pt-ThinItalic.ttf */,
+				5A4E196072054ED99EB33302 /* DMSans_24pt-Black.ttf */,
+				931D93277F59440581920D3F /* DMSans_24pt-BlackItalic.ttf */,
+				7711273072744E6BA2E27DAD /* DMSans_24pt-Bold.ttf */,
+				5C06EE82C8884143A9F53B46 /* DMSans_24pt-BoldItalic.ttf */,
+				6586E09810534DAAB4014EC5 /* DMSans_24pt-ExtraBold.ttf */,
+				7BBCCF01C5B94317BF796065 /* DMSans_24pt-ExtraBoldItalic.ttf */,
+				761F672984B14B7480149778 /* DMSans_24pt-ExtraLight.ttf */,
+				BA190BD209ED40E2883ABBB4 /* DMSans_24pt-ExtraLightItalic.ttf */,
+				58739C2662964CF380A0CCB5 /* DMSans_24pt-Italic.ttf */,
+				311A3F5AB23143B6AA19FA64 /* DMSans_24pt-Light.ttf */,
+				ECF475843A7E4A76B2D0161A /* DMSans_24pt-LightItalic.ttf */,
+				02114F22973E48998A8C7A96 /* DMSans_24pt-Medium.ttf */,
+				FC111D4085A14383A244B420 /* DMSans_24pt-MediumItalic.ttf */,
+				157470FA868649AFA0BF6670 /* DMSans_24pt-Regular.ttf */,
+				56187BA21CBA4F2883254CC2 /* DMSans_24pt-SemiBold.ttf */,
+				C76D2CFE30FF4366A8750BFA /* DMSans_24pt-SemiBoldItalic.ttf */,
+				75FC76303E6448C08A9EAA3A /* DMSans_24pt-Thin.ttf */,
+				2C1616ECE77E441085332761 /* DMSans_24pt-ThinItalic.ttf */,
+				2F8EA9C3B1044F549E48D988 /* DMSans_36pt-Black.ttf */,
+				220FDA2D1D8943DD928DAA35 /* DMSans_36pt-BlackItalic.ttf */,
+				E0B7F4AD69484DE38D32AB62 /* DMSans_36pt-Bold.ttf */,
+				979B4073FF2B40059E90C721 /* DMSans_36pt-BoldItalic.ttf */,
+				7188B2EC1AE14907BF23EF60 /* DMSans_36pt-ExtraBold.ttf */,
+				E83318B999044CEF8DA9E58A /* DMSans_36pt-ExtraBoldItalic.ttf */,
+				32526AA47FB44D9690691A7A /* DMSans_36pt-ExtraLight.ttf */,
+				08993EADDF4B4083B385EB0B /* DMSans_36pt-ExtraLightItalic.ttf */,
+				3B64F4C8ED75435794E0BAB0 /* DMSans_36pt-Italic.ttf */,
+				611A38E60D544E2084577364 /* DMSans_36pt-Light.ttf */,
+				D26A4196114A4E70B04EF97F /* DMSans_36pt-LightItalic.ttf */,
+				6C3653987D1842E287A55960 /* DMSans_36pt-Medium.ttf */,
+				27B853EBE83646EF8D96F1E5 /* DMSans_36pt-MediumItalic.ttf */,
+				3632208661204BC0AAF0C480 /* DMSans_36pt-Regular.ttf */,
+				B3D8BB88BEF6438AB4FE48F0 /* DMSans_36pt-SemiBold.ttf */,
+				9E9224E067B6440BBA175330 /* DMSans_36pt-SemiBoldItalic.ttf */,
+				F870D288755F4637BB57BF54 /* DMSans_36pt-Thin.ttf */,
+				D88B67230CEA4D7F99358178 /* DMSans_36pt-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* invibet */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* invibetTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2EE135FA3BD34D2CBB5CEB96 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* invibet.app */,
+				00E356EE1AD99517003FC87E /* invibetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				887D7EBAEBA9E1899130E166 /* Pods-invibet.debug.xcconfig */,
+				3072368CD60529EAD60E7710 /* Pods-invibet.release.xcconfig */,
+				BD9894E11D922159E4453AA2 /* Pods-invibetTests.debug.xcconfig */,
+				5D06955BE8820A9279970EFB /* Pods-invibetTests.release.xcconfig */,
+				304313187BBA63A4B8B1AEE1 /* Pods-invibet-invibetTests.debug.xcconfig */,
+				CD1124734D59E36ED797D77B /* Pods-invibet-invibetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* invibetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "invibetTests" */;
+			buildPhases = (
+				7B62959DA594E19D00D8AE29 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F96BF529BE7C4F1606DD1EFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = invibetTests;
+			productName = invibetTests;
+			productReference = 00E356EE1AD99517003FC87E /* invibetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* invibet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "invibet" */;
+			buildPhases = (
+				A0778CB1F17477C9EB381756 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				ED63B00D820395F452174AA3 /* [CP] Embed Pods Frameworks */,
+				19A183E4A611D9412E748BBA /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = invibet;
+			productName = invibet;
+			productReference = 13B07F961A680F5B00A75B9A /* invibet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "invibet" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* invibet */,
+				00E356ED1AD99517003FC87E /* invibetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				466650C9321C4A37AB701343 /* SpaceMono-Regular.ttf in Resources */,
+				464B795311CD8B8F3FABE731 /* PrivacyInfo.xcprivacy in Resources */,
+				4EB64E9EAEE349A4B8AE7168 /* DMSans-Black.ttf in Resources */,
+				2E1CC2246D124E3EA81D4565 /* DMSans-BlackItalic.ttf in Resources */,
+				8C183AD3E85D4B4D905C8E76 /* DMSans-Bold.ttf in Resources */,
+				271BFD56825645B4BA8E2972 /* DMSans-BoldItalic.ttf in Resources */,
+				EB289D42BA6D44629AB62DE3 /* DMSans-ExtraBold.ttf in Resources */,
+				A82458C62A2D479E9C311CD1 /* DMSans-ExtraBoldItalic.ttf in Resources */,
+				8298B9B60E0A4083AE20D05D /* DMSans-ExtraLight.ttf in Resources */,
+				C1BC5DB2FCBD4930B97F60E2 /* DMSans-ExtraLightItalic.ttf in Resources */,
+				324433AADBBD4D0F9D605408 /* DMSans-Italic.ttf in Resources */,
+				AE204CCB1AD148DA9D39AE9D /* DMSans-Light.ttf in Resources */,
+				74A1393C956242A1B24E5544 /* DMSans-LightItalic.ttf in Resources */,
+				723B7441F7C84FA5A1CBADA4 /* DMSans-Medium.ttf in Resources */,
+				20CE64D613DC474E808270B9 /* DMSans-MediumItalic.ttf in Resources */,
+				E544E3EDEBC2450FA5DB8B4F /* DMSans-Regular.ttf in Resources */,
+				8B1E8819A2374347B98A95F1 /* DMSans-SemiBold.ttf in Resources */,
+				B3FF2AF58DC84C9FA7F0F15F /* DMSans-SemiBoldItalic.ttf in Resources */,
+				1BB2DD5FE57C49F39236C4DE /* DMSans-Thin.ttf in Resources */,
+				E43C44A9EA8741A48B14E88F /* DMSans-ThinItalic.ttf in Resources */,
+				ADF0EC1000D64AC7AF51FFD7 /* DMSans_18pt-Black.ttf in Resources */,
+				FC48D55128044D9E8DD03479 /* DMSans_18pt-BlackItalic.ttf in Resources */,
+				088D2C22C1D14F3D8DC834C9 /* DMSans_18pt-Bold.ttf in Resources */,
+				1AF1239CC3A14CB988D6087B /* DMSans_18pt-BoldItalic.ttf in Resources */,
+				E469E6DD7BED4EE4B497533C /* DMSans_18pt-ExtraBold.ttf in Resources */,
+				848FC71D40C64DD4911AFC8B /* DMSans_18pt-ExtraBoldItalic.ttf in Resources */,
+				C1EBB84ABE4C416F88EE88EB /* DMSans_18pt-ExtraLight.ttf in Resources */,
+				1CE545F1A31C4AC489D9C397 /* DMSans_18pt-ExtraLightItalic.ttf in Resources */,
+				5B77AAF7B572443D999390CD /* DMSans_18pt-Italic.ttf in Resources */,
+				8B2659E5979A4986A9097595 /* DMSans_18pt-Light.ttf in Resources */,
+				A1E12F5334E84501A136DA5E /* DMSans_18pt-LightItalic.ttf in Resources */,
+				D312DCC367A842ECA124D842 /* DMSans_18pt-Medium.ttf in Resources */,
+				B8A7F0D2EB364F54A482C8F2 /* DMSans_18pt-MediumItalic.ttf in Resources */,
+				B01FF637B96E4D92A4E79A11 /* DMSans_18pt-Regular.ttf in Resources */,
+				B0559C8238CF42D0AA070543 /* DMSans_18pt-SemiBold.ttf in Resources */,
+				7F21C57063824F1E9FB382A2 /* DMSans_18pt-SemiBoldItalic.ttf in Resources */,
+				CBE7AC218C5B436280E6B842 /* DMSans_18pt-Thin.ttf in Resources */,
+				8BFE914B6AD84799A29D731A /* DMSans_18pt-ThinItalic.ttf in Resources */,
+				CC703146821F464D8BEC001C /* DMSans_24pt-Black.ttf in Resources */,
+				C6A9C24C9F1D42638D65FF9D /* DMSans_24pt-BlackItalic.ttf in Resources */,
+				E92AAD8DA61D478ABC63774D /* DMSans_24pt-Bold.ttf in Resources */,
+				F73169D0B6E64AF38EF6BF5C /* DMSans_24pt-BoldItalic.ttf in Resources */,
+				594851FF7D4A49528D91D250 /* DMSans_24pt-ExtraBold.ttf in Resources */,
+				1514F56889A8492397D00C72 /* DMSans_24pt-ExtraBoldItalic.ttf in Resources */,
+				3FD5721328104FB49574F3CC /* DMSans_24pt-ExtraLight.ttf in Resources */,
+				CAE2C8D23FD54BF286DF2AF2 /* DMSans_24pt-ExtraLightItalic.ttf in Resources */,
+				4362782978D34496ADB834A4 /* DMSans_24pt-Italic.ttf in Resources */,
+				53A6474F9C31483EA03A9253 /* DMSans_24pt-Light.ttf in Resources */,
+				1338522B9EFC41EDBF1ABDB6 /* DMSans_24pt-LightItalic.ttf in Resources */,
+				2FAF1F93BAAC494DAC4A5D5E /* DMSans_24pt-Medium.ttf in Resources */,
+				E3AD91FA6DF54BF083018DBC /* DMSans_24pt-MediumItalic.ttf in Resources */,
+				7FC6A5E5C80B456D8BBABDD4 /* DMSans_24pt-Regular.ttf in Resources */,
+				EC5464105FEA43DB8DD87092 /* DMSans_24pt-SemiBold.ttf in Resources */,
+				B6474E48567F488E83B75924 /* DMSans_24pt-SemiBoldItalic.ttf in Resources */,
+				1E3066D6BA0843449A831C3A /* DMSans_24pt-Thin.ttf in Resources */,
+				9510B4B1DEC14DAC845ADC50 /* DMSans_24pt-ThinItalic.ttf in Resources */,
+				14DFD9D017574CACAC926E01 /* DMSans_36pt-Black.ttf in Resources */,
+				F3F354F3A4D54D5B8266918D /* DMSans_36pt-BlackItalic.ttf in Resources */,
+				B5AC01F29B094CCCBA1D6A19 /* DMSans_36pt-Bold.ttf in Resources */,
+				E23B633030E0482195263977 /* DMSans_36pt-BoldItalic.ttf in Resources */,
+				9C642957F9B6477FBA92296D /* DMSans_36pt-ExtraBold.ttf in Resources */,
+				90E69A86E1D14ABB88B5D142 /* DMSans_36pt-ExtraBoldItalic.ttf in Resources */,
+				7AA60FF936F346BE856FACFA /* DMSans_36pt-ExtraLight.ttf in Resources */,
+				48B92B0E1ACC416097F3761D /* DMSans_36pt-ExtraLightItalic.ttf in Resources */,
+				718E6BB3A240414588BCDC36 /* DMSans_36pt-Italic.ttf in Resources */,
+				F3D5637B0D6A4A00B4204A4B /* DMSans_36pt-Light.ttf in Resources */,
+				8267D5E70D9B42B99838124C /* DMSans_36pt-LightItalic.ttf in Resources */,
+				CB1BB2E0CAE84E418703F6FF /* DMSans_36pt-Medium.ttf in Resources */,
+				46858531892A4BC982D36B8C /* DMSans_36pt-MediumItalic.ttf in Resources */,
+				B334FC13994A416A803EC062 /* DMSans_36pt-Regular.ttf in Resources */,
+				5E39A78CDB984A73A35B2322 /* DMSans_36pt-SemiBold.ttf in Resources */,
+				19D7F4034FC84208ADBCDAC8 /* DMSans_36pt-SemiBoldItalic.ttf in Resources */,
+				CD9D72458245495FA6EE01BB /* DMSans_36pt-Thin.ttf in Resources */,
+				2CBB9C61820341B9A797004A /* DMSans_36pt-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		19A183E4A611D9412E748BBA /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		7B62959DA594E19D00D8AE29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-invibet-invibetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0778CB1F17477C9EB381756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-invibet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED63B00D820395F452174AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invibet/Pods-invibet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invibet/Pods-invibet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invibet/Pods-invibet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96BF529BE7C4F1606DD1EFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invibet-invibetTests/Pods-invibet-invibetTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-invibet-invibetTests/Pods-invibet-invibetTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-invibet-invibetTests/Pods-invibet-invibetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* invibetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* invibet */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304313187BBA63A4B8B1AEE1 /* Pods-invibet-invibetTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = invibetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invibet.app/invibet";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1124734D59E36ED797D77B /* Pods-invibet-invibetTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = invibetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invibet.app/invibet";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887D7EBAEBA9E1899130E166 /* Pods-invibet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QLCV334NU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = invibet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.certifi;
+				PRODUCT_NAME = invibet;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3072368CD60529EAD60E7710 /* Pods-invibet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = invibet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = invibet;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "invibetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "invibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "invibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
