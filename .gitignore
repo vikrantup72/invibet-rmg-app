@@ -24,6 +24,9 @@ DerivedData
 
 # Android/IntelliJ
 #
+# Ignore APKs and Gradle build files
+*.apk
+android/.gradle/
 build/
 .idea
 .gradle
