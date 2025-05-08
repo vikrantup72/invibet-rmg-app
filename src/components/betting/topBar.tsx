@@ -118,14 +118,7 @@ export function BettingTopBar(props: BettingTopBarProps) {
           {props.noIcons ? null : (
             <Div flexDir="row" justifyContent="center" alignItems="center">
               {user?.device_id != null ? (
-                <Pressable
-                  onPress={() => {
-                    alert("cnnnectBt function");
-                    // connectBT().then((i) => console.log("cnnnectBt====>", i));
-                  }}
-                  hitSlop={20}
-                  style={styles.watchMain}
-                >
+                <View style={styles.watchMain}>
                   <Text
                     style={{
                       fontSize: RFValue(12),
@@ -134,11 +127,9 @@ export function BettingTopBar(props: BettingTopBarProps) {
                       color: connection_status?.isConnected ? "green" : "white",
                     }}
                   >
-                    {connection_status?.isConnected == true
-                      ? "Connected"
-                      : "Disconnected"}
+                    Connected
                   </Text>
-                </Pressable>
+                </View>
               ) : (
                 <Pressable
                   onPress={() => {
@@ -158,7 +149,7 @@ export function BettingTopBar(props: BettingTopBarProps) {
                       marginRight: wp(1),
                     }}
                   >
-                    {"Add device"}
+                    {"Add device "}
                   </Text>
                 </Pressable>
               )}

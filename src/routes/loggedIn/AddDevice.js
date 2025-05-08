@@ -3,63 +3,93 @@ import CustomBtn from "../../components/CustomBtn";
 import AppImages from "../../constants/AppImages";
 import { baseColors } from "../../constants/colors";
 import AppFonts from "../../constants/fonts";
-import userData from "../../redux/Reducers/userData";
-import { setIsSkipped, setAuthRedux } from "../../redux/Reducers/userData";
-import React, { useState } from "react";
+import { setAuthRedux } from "../../redux/Reducers/userData";
+import React, { useState, useEffect } from "react";
 import {
   View,
   Text,
   Image,
   FlatList,
-  TouchableOpacity,
   StyleSheet,
-  Pressable,
   SafeAreaView,
+  Pressable,
+  Alert,
 } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { useDispatch } from "react-redux";
-
+import RNInstalledAppChecker from "react-native-installed-app-checker";
 const AddDevice = ({ navigation }) => {
-  console.log("i am at add device***********");
-  //Redux
   const dispatch = useDispatch();
-  const [selectedFilter, setSelectedFilter] = useState("All");
-  const [productList] = useState([
-    {
-      id: "1",
-      name: "Devices",
-      image: AppImages.AppWatch,
-      category:
-        "Start tracking your activity and unlocking rewards effortlessly",
-    },
-  ]);
+  const [visibleApps, setVisibleApps] = useState([]);
 
-  const filteredProducts =
-    selectedFilter === "All"
-      ? productList
-      : productList.filter((product) => product.category === selectedFilter);
+  const fitnessApps = [
+    {
+      name: "Samsung Health",
+      package: "com.sec.android.app.shealth",
+      logo: "https://play-lh.googleusercontent.com/VBqNEAIh3FUDt3X2cG9ufmuTCUvqbZRU3p7_Ok3RSzjS7EaeZ_9wAtFozJcATJAYJw=w240-h480",
+    },
+    {
+      name: "Google Fit",
+      package: "com.google.android.apps.fitness",
+      logo: "https://play-lh.googleusercontent.com/EM_KojD4d2VqlTYqE46o9gXWp3AVwPRHDAX-mXHdTAAD2-BYxJDsOpA_aYIFdPYyz_Q=w240-h480",
+    },
+    {
+      name: "Fitbit",
+      package: "com.fitbit.FitbitMobile",
+      logo: "https://play-lh.googleusercontent.com/AlA_Nfip-iUpmtn2HdUEQMyy0M48ikZi7q78OSy3Ey3sLTPKUBRQeOnAzRqxkYZKfA=w240-h480",
+    },
+    {
+      name: "WHOOP",
+      package: "com.whoop.android",
+      logo: "https://play-lh.googleusercontent.com/gkhn05yLSE3Oq8dufEjxE5Y6aQKcKfDDVRcoqOGl9zkxMdDgTyoXkDoV95hL2L1Vn9I=w240-h480",
+    },
+    {
+      name: "Garmin Connect",
+      package: "com.garmin.android.apps.connectmobile",
+      logo: "https://play-lh.googleusercontent.com/OmWtbL6tbiZwQUl_nAi0Nw4KTV7PSTHHF1e5YqVkj_gCn9ffxw9G90DnEqpQ5wSHQQ=w240-h480",
+    },
+    {
+      name: "Zepp (Amazfit)",
+      package: "com.huami.watch.hmwatchmanager",
+      logo: "https://play-lh.googleusercontent.com/Y7dsLj3Kq7lPtbbM0kkMa3K4bo5BFzRwE7qD8asx3dwYoF0Nv44ZmQbswAevUNaJjxM=w240-h480",
+    },
+  ];
+
+  useEffect(() => {
+    const checkInstalledApps = async () => {
+      const results = await Promise.all(
+        fitnessApps.map(async (app) => {
+          const result = RNInstalledAppChecker.isAppInstalled(app.package);
+          return result.isInstalled ? app : null;
+        })
+      );
+      // setVisibleApps(results.filter(Boolean));
+    };
+
+    // checkInstalledApps();
+  }, []);
 
   const renderItem = ({ item }) => (
     <View style={styles.card}>
-      <View
-        style={{ flexDirection: "row", alignItems: "center", width: "100%" }}
-      >
+      <View style={{ flexDirection: "row", alignItems: "center", flex: 1 }}>
         <View style={styles.ImgContainer}>
-          <Image source={item.image} style={styles.image} />
+          <Image source={{ uri: item.logo }} style={styles.image} />
         </View>
         <View style={styles.textContainer}>
           <Text style={styles.productName}>{item.name}</Text>
-          <Text style={styles.category}>{item.category}</Text>
         </View>
       </View>
-      {/* <Pressable
-        style={styles.btn_Container}
-        onPress={() => {
-          navigation.navigate("DeviceSetup");
+      <Pressable
+        style={{
+          // backgroundColor: "#452B50",
+          backgroundColor: "gray",
+          borderRadius: 4,
+          paddingVertical: 8,
+          paddingHorizontal: 20,
         }}
       >
-        <Text style={styles.Btn}>Add device</Text>
-      </Pressable> */}
+        <Text style={{ color: "#eee", fontSize: 12 }}>Connect</Text>
+      </Pressable>
     </View>
   );
 
@@ -68,37 +98,19 @@ const AddDevice = ({ navigation }) => {
       <View style={styles.topBar}>
         <Text style={styles.title}>Setup Your Device</Text>
       </View>
-      {/* Product List */}
       <FlatList
-        data={filteredProducts}
+        data={fitnessApps}
         renderItem={renderItem}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.package}
         contentContainerStyle={styles.productList}
+        ItemSeparatorComponent={<View style={{ margin: 10 }} />}
         showsVerticalScrollIndicator={false}
         alwaysBounceVertical={false}
       />
-      <CustomBtn
-        btnName={"Buy a New Device"}
-        textStyle={{
-          color: baseColors.theme,
-          fontFamily: AppFonts.bold,
-          fontWeight: "600",
-        }}
-        btnStyle={{
-          marginVertical: hp(1),
-          backgroundColor: baseColors.white,
-          borderColor: baseColors.theme,
-          borderWidth: 1,
-        }}
-        onPress={() => {
-          dispatch(setAuthRedux(true));
-          dispatch(setIsSkipped(false));
-          console.log("Redux Update===>===>===>", userData);
-          setTimeout(() => {
-            navigation.navigate("bettingTabs", { screen: "betting/shop" });
-          }, 100);
-        }}
-      />
+      <Text style={{ textAlign: "center" }}>
+        Check and auto-connect with Health Connect (Google Fit or Samsung
+        Health)
+      </Text>
       <View
         style={{
           flexDirection: "row",
@@ -108,7 +120,7 @@ const AddDevice = ({ navigation }) => {
         }}
       >
         <CustomBtn
-          btnName={"Skip for now "}
+          btnName={"Continue"}
           textStyle={{
             color: baseColors.theme,
             fontFamily: AppFonts.bold,
@@ -175,17 +187,21 @@ const styles = StyleSheet.create({
   card: {
     backgroundColor: "#FAF7FC",
     borderRadius: 8,
-    paddingVertical: hp(2.5),
-    paddingHorizontal: wp(2),
+    paddingHorizontal: 16,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
   ImgContainer: {
     paddingVertical: wp(3),
   },
   image: {
-    width: wp(15),
-    height: wp(15),
+    width: wp(10),
+    height: wp(10),
+    borderRadius: wp(10),
     marginRight: wp(2),
     resizeMode: "contain",
+    backgroundColor: "#ddd",
   },
   textContainer: {
     flex: 1,

@@ -1117,6 +1117,9 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - react-native-spike-sdk (4.2.63):
+    - React-Core
+    - SpikeSDK (= 4.2.41)
   - react-native-webview (13.13.5):
     - DoubleConversion
     - glog
@@ -1369,6 +1372,8 @@ PODS:
     - React-utils (= 0.74.2)
   - RNCAsyncStorage (2.1.2):
     - React-Core
+  - RNCClipboard (1.16.2):
+    - React-Core
   - RNDateTimePicker (8.3.0):
     - React-Core
   - RNFastImage (8.6.3):
@@ -1470,6 +1475,7 @@ PODS:
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
   - SocketRocket (0.7.0)
+  - SpikeSDK (4.2.41)
   - TOCropViewController (2.7.4)
   - Yoga (0.0.0)
 
@@ -1515,6 +1521,7 @@ DEPENDENCIES:
   - react-native-cashfree-pg-sdk (from `../node_modules/react-native-cashfree-pg-sdk`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
+  - react-native-spike-sdk (from `../node_modules/react-native-spike-sdk`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
@@ -1540,6 +1547,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
@@ -1576,6 +1584,7 @@ SPEC REPOS:
     - SDWebImage
     - SDWebImageWebPCoder
     - SocketRocket
+    - SpikeSDK
     - TOCropViewController
 
 EXTERNAL SOURCES:
@@ -1654,6 +1663,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-slider:
     :path: "../node_modules/@react-native-community/slider"
+  react-native-spike-sdk:
+    :path: "../node_modules/react-native-spike-sdk"
   react-native-webview:
     :path: "../node_modules/react-native-webview"
   React-nativeconfig:
@@ -1704,6 +1715,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNCClipboard:
+    :path: "../node_modules/@react-native-clipboard/clipboard"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
   RNFastImage:
@@ -1784,6 +1797,7 @@ SPEC CHECKSUMS:
   react-native-cashfree-pg-sdk: ea668611264911ea35523daaf4d6bdc5bd505d3e
   react-native-safe-area-context: 8870dc3e45c8d241336cd8ee3fa3fc76f3a040ac
   react-native-slider: 071c8460e369583e6ab94365bf0a3efa7f11a6c1
+  react-native-spike-sdk: d069a866659b74dbdb5ecffeec59d8acfb8a7358
   react-native-webview: b245dda2cb0b28b66116bd28e8982fbebd740e8e
   React-nativeconfig: 5d452e509d6fbedc1522e21b566451fc673ac6b7
   React-NativeModulesApple: 6560431301ffdab8df6212cc8c8eff779396d8e0
@@ -1809,6 +1823,7 @@ SPEC CHECKSUMS:
   React-utils: 5a40a1bb87d8c2d42a6bbbb7ead6d95785ca6042
   ReactCommon: e5866ad8f7487779853fa3fe33f1c075207c3262
   RNCAsyncStorage: addfc2cb6511dbe199c56c6b26ede383b6c38919
+  RNCClipboard: 4411a880506f11fbcbdc03b5093eb8ffb246d900
   RNDateTimePicker: a793ed8822283f576dd0a205a0916c5098c2611f
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNFBApp: 042c5fd387792dca0d9d99756af0c8a400fdd859
@@ -1822,6 +1837,7 @@ SPEC CHECKSUMS:
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  SpikeSDK: a248dca70172f04e7da960a5446134c67754efbb
   TOCropViewController: 80b8985ad794298fb69d3341de183f33d1853654
   Yoga: 45564236f670899c9739b1581a12b00ead5d391f
 

@@ -14,6 +14,7 @@ ${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework
 ${BUILT_PRODUCTS_DIR}/RCTDeprecation/RCTDeprecation.framework
 ${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework
 ${BUILT_PRODUCTS_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework
+${BUILT_PRODUCTS_DIR}/RNCClipboard/RNCClipboard.framework
 ${BUILT_PRODUCTS_DIR}/RNDateTimePicker/RNDateTimePicker.framework
 ${BUILT_PRODUCTS_DIR}/RNFBApp/RNFBApp.framework
 ${BUILT_PRODUCTS_DIR}/RNFBMessaging/RNFBMessaging.framework
@@ -76,10 +77,12 @@ ${BUILT_PRODUCTS_DIR}/react-native-bluetooth-status/react_native_bluetooth_statu
 ${BUILT_PRODUCTS_DIR}/react-native-cashfree-pg-sdk/react_native_cashfree_pg_sdk.framework
 ${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework
 ${BUILT_PRODUCTS_DIR}/react-native-slider/react_native_slider.framework
+${BUILT_PRODUCTS_DIR}/react-native-spike-sdk/react_native_spike_sdk.framework
 ${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CFNetworkSDK/CFNetworkSDK.framework/CFNetworkSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreeAnalyticsSDK/CashfreeAnalyticsSDK.framework/CashfreeAnalyticsSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePG/CashfreePG.framework/CashfreePG
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePGCoreSDK/CashfreePGCoreSDK.framework/CashfreePGCoreSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/CashfreePGUISDK/CashfreePGUISDK.framework/CashfreePGUISDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SpikeSDK/SpikeSDK.framework/SpikeSDK
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes

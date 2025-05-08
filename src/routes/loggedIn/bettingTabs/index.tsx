@@ -125,128 +125,117 @@ export function BettingBottomTabs() {
                 elevation: 20,
                 shadowRadius: 10,
                 shadowOffset: { height: 100, width: 0 },
+                paddingHorizontal: 30,
+                height: 80,
+                paddingTop: 14,
               }}
             >
-              <Div
-                flexDir="row"
-                justifyContent="space-around"
-                alignItems="center"
-                w="50%"
-              >
-                <SimpleTabButton
-                  label="Home"
-                  navigation={navigation}
-                  navigateTo="betting/home"
-                  activeIcon={
-                    <Entypo name="home" color={baseColors.theme} size={22} />
-                  }
-                  simpleIcon={
-                    <Feather name="home" color={baseColors.theme} size={22} />
-                  }
-                  isActive={routKeyMap["betting/home"] === currentRoute?.key}
-                  // onPress={() => navigation.navigate('bettingTabs', { screen: navigateTo })}
-                  onPress={() =>
+              <SimpleTabButton
+                label="Home"
+                navigation={navigation}
+                navigateTo="betting/home"
+                activeIcon={
+                  <Entypo name="home" color={baseColors.theme} size={22} />
+                }
+                simpleIcon={
+                  <Feather name="home" color={baseColors.theme} size={22} />
+                }
+                isActive={routKeyMap["betting/home"] === currentRoute?.key}
+                // onPress={() => navigation.navigate('bettingTabs', { screen: navigateTo })}
+                onPress={() =>
+                  navigation.navigate("bettingTabs", {
+                    screen: "betting/home",
+                  })
+                }
+              />
+              <SimpleTabButton
+                label="My Bets"
+                navigation={navigation}
+                navigateTo="betting/myBets"
+                activeIcon={
+                  <MaterialCommunityIcons
+                    name="hand-coin"
+                    color={baseColors.theme}
+                    size={24}
+                  />
+                }
+                simpleIcon={
+                  <MaterialCommunityIcons
+                    name="hand-coin-outline"
+                    color={baseColors.theme}
+                    size={24}
+                  />
+                }
+                isActive={routKeyMap["betting/myBets"] === currentRoute?.key}
+                onPress={() => {
+                  if (isSkipped) {
+                    HandlePress();
+                    return;
+                  } else if (user && user?.device_id != null) {
                     navigation.navigate("bettingTabs", {
-                      screen: "betting/home",
-                    })
+                      screen: "betting/myBets",
+                    });
+                    return;
+                  } else {
+                    HandlePress_connect();
                   }
-                />
-                <SimpleTabButton
-                  label="My Bets"
-                  navigation={navigation}
-                  navigateTo="betting/myBets"
-                  activeIcon={
-                    <MaterialCommunityIcons
-                      name="hand-coin"
-                      color={baseColors.theme}
-                      size={24}
-                    />
-                  }
-                  simpleIcon={
-                    <MaterialCommunityIcons
-                      name="hand-coin-outline"
-                      color={baseColors.theme}
-                      size={24}
-                    />
-                  }
-                  isActive={routKeyMap["betting/myBets"] === currentRoute?.key}
-                  onPress={() => {
-                    if (isSkipped) {
-                      HandlePress();
-                      return;
-                    } else if (user && user?.device_id != null) {
-                      navigation.navigate("bettingTabs", {
-                        screen: "betting/myBets",
-                      });
-                      return;
-                    } else {
-                      HandlePress_connect();
-                    }
-                  }}
-                />
-              </Div>
+                }}
+              />
 
-              <Div
-                flexDir="row"
-                justifyContent="space-around"
-                alignItems="center"
-                w="50%"
-              >
-                <SimpleTabButton
-                  label="Shop"
-                  navigation={navigation}
-                  navigateTo="betting/shop"
-                  simpleIcon={
-                    <AntDesign
-                      name="shoppingcart"
-                      color={baseColors.theme}
-                      size={24}
-                    />
+              {/* <SimpleTabButton
+                label="Shop"
+                navigation={navigation}
+                navigateTo="betting/shop"
+                simpleIcon={
+                  <AntDesign
+                    name="shoppingcart"
+                    color={baseColors.theme}
+                    size={24}
+                  />
+                }
+                activeIcon={
+                  <FontAwesome5
+                    name="shopping-cart"
+                    color={baseColors.theme}
+                    size={22}
+                  />
+                }
+                isActive={routKeyMap["betting/shop"] === currentRoute?.key}
+                onPress={() => {
+                  navigation.navigate("bettingTabs", {
+                    screen: "betting/shop",
+                  });
+                }}
+              /> */}
+              <SimpleTabButton
+                label="Profile"
+                navigation={navigation}
+                navigateTo="betting/profile"
+                simpleIcon={
+                  <FontAwesome5
+                    name="user-circle"
+                    color={baseColors.theme}
+                    size={22}
+                  />
+                }
+                activeIcon={
+                  <FontAwesome
+                    name="user-circle-o"
+                    color={baseColors.theme}
+                    size={22}
+                  />
+                }
+                isActive={routKeyMap["betting/profile"] === currentRoute?.key}
+                onPress={() => {
+                  if (isSkipped) {
+                    HandlePress();
+                    return;
                   }
-                  activeIcon={
-                    <FontAwesome5
-                      name="shopping-cart"
-                      color={baseColors.theme}
-                      size={22}
-                    />
-                  }
-                  isActive={routKeyMap["betting/shop"] === currentRoute?.key}
-                  onPress={() => {
-                    navigation.navigate("bettingTabs", {
-                      screen: "betting/shop",
-                    });
-                  }}
-                />
-                <SimpleTabButton
-                  label="Profile"
-                  navigation={navigation}
-                  navigateTo="betting/profile"
-                  simpleIcon={
-                    <FontAwesome5
-                      name="user-circle"
-                      color={baseColors.theme}
-                      size={22}
-                    />
-                  }
-                  activeIcon={
-                    <FontAwesome
-                      name="user-circle-o"
-                      color={baseColors.theme}
-                      size={22}
-                    />
-                  }
-                  isActive={routKeyMap["betting/profile"] === currentRoute?.key}
-                  onPress={() => {
-                    if (isSkipped) {
-                      HandlePress();
-                      return;
-                    }
-                    navigation.navigate("bettingTabs", {
-                      screen: "betting/profile",
-                    });
-                  }}
-                />
-              </Div>
+                  navigation.navigate("bettingTabs", {
+                    screen: "betting/profile",
+                  });
+                }}
+              />
             </Div>
           );
         }}
@@ -254,7 +243,7 @@ export function BettingBottomTabs() {
         <Tab.Screen name="betting/home" component={BettingDashboard} />
         <Tab.Screen name="betting/myBets" component={MyBets} />
         <Tab.Screen name="betting/add" component={AddBet} />
-        <Tab.Screen name="betting/shop" component={Shop} />
+        {/* <Tab.Screen name="betting/shop" component={Shop} /> */}
         <Tab.Screen name="betting/profile" component={Profile} />
       </Tab.Navigator>
     </Div>

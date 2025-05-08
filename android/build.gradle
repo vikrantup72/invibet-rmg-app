@@ -1,28 +1,47 @@
 buildscript {
     ext {
         buildToolsVersion = "34.0.0"
-        minSdkVersion = 26
-        compileSdkVersion = 34
-        targetSdkVersion = 34
+        minSdkVersion = 28
+        compileSdkVersion = 35
+        targetSdkVersion = 35
         ndkVersion = "26.1.10909125"
         kotlinVersion = "1.9.22"
     }
     repositories {
         google()
         mavenCentral()
+        // Bintray is deprecated, consider removing if not used
         maven {
             url 'https://dl.bintray.com/cashfree/maven'
+        }
+
+        // GitLab Maven repository
+        maven {
             url 'https://gitlab.com/api/v4/projects/43396247/packages/maven'
         }
     }
+
     dependencies {
-        // firebase
-         classpath 'com.google.gms:google-services:4.4.2'
-        classpath("com.android.tools.build:gradle")
+        // Android Gradle plugin
+        classpath("com.android.tools.build:gradle:8.2.0") // Replace with version matching your Gradle wrapper
+
+        // Google Services plugin for Firebase
+        classpath("com.google.gms:google-services:4.4.2")
+
+        // React Native Gradle plugin
         classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+
+        // Kotlin Gradle plugin
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
     }
-
 }
-
+allprojects {
+    repositories {
+        // Other repositories
+        maven {
+            url 'https://gitlab.com/api/v4/projects/43396247/packages/maven'
+        }
+    }
+}
+// Required for React Native projects
 apply plugin: "com.facebook.react.rootproject"

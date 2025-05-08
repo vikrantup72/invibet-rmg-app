@@ -57,6 +57,8 @@
 #import "react/renderer/components/safeareacontext/States.h"
 #import "rnasyncstorage/rnasyncstorage.h"
 #import "rnasyncstorageJSI.h"
+#import "rnclipboard/rnclipboard.h"
+#import "rnclipboardJSI.h"
 #import "RNCWebViewSpec/RNCWebViewSpec.h"
 #import "RNCWebViewSpecJSI.h"
 #import "RNDateTimePickerCGen/RNDateTimePickerCGen.h"

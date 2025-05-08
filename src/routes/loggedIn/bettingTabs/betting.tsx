@@ -599,16 +599,17 @@ function Dashboard(props: { setDetailType: (type: "pickOfDay") => void }) {
             <TouchableOpacity
               style={styles.joinButton}
               onPress={() => {
-                if (isSkipped) {
-                  HandlePress();
-                } else if (
-                  user.hasOwnProperty("device_id") &&
-                  user?.device_id != null
-                ) {
-                  onJoinNow();
-                } else {
-                  HandlePress_connect();
-                }
+                onJoinNow();
+                // if (isSkipped) {
+                //   HandlePress();
+                // } else if (
+                //   user.hasOwnProperty("device_id") &&
+                //   user?.device_id != null
+                // ) {
+                //   onJoinNow();
+                // } else {
+                //   HandlePress_connect();
+                // }
               }}
               disabled={isJoined}
             >
@@ -680,29 +681,29 @@ function Dashboard(props: { setDetailType: (type: "pickOfDay") => void }) {
             />
             <GamesCard
               deduction={
-                (parseInt(firstBet[0].put_points) *
-                  parseInt(firstBet[0].joined_users) *
+                (parseInt(firstBet[0]?.put_points) *
+                  parseInt(firstBet[0]?.joined_users) *
                   15) /
                 100
               }
               totalAmount={
-                parseInt(firstBet[0].put_points) *
-                parseInt(firstBet[0].joined_users)
+                parseInt(firstBet[0]?.put_points) *
+                parseInt(firstBet[0]?.joined_users)
               }
-              betId={firstBet[0].bet_id}
+              betId={firstBet[0]?.bet_id}
               scrollEnabled={false}
               betType="megapool"
-              title={firstBet[0].name || "No Title"}
+              title={firstBet[0]?.name || "No Title"}
               declaration={
-                firstBet[0].bet_declaration ||
+                firstBet[0]?.bet_declaration ||
                 "The more players, the bigger the prize!"
               }
               // prizePoints={`${firstBet[0].put_points || 0} Points`}
-              entryFee={`${firstBet[0].put_points || 0} Points`}
-              pool_prize={firstBet[0].pool_prize || "N/A"}
-              joinedUsers={firstBet[0].joined_users || 0}
-              timeframe={firstBet[0].timeframe || "No Timeframe"}
-              imageSource={AppImages.GameBanner}
+              entryFee={`${firstBet[0]?.put_points || 0} Points`}
+              pool_prize={firstBet[0]?.pool_prize || "N/A"}
+              joinedUsers={firstBet[0]?.joined_users || 0}
+              timeframe={firstBet[0]?.timeframe || "No Timeframe"}
+              imageSource={AppImages?.GameBanner}
               spotLeft={firstBet?.[0]?.max_users - firstBet?.[0]?.joined_users}
               onJoinNow={() => {
                 if (isSkipped) {
@@ -889,8 +890,6 @@ function Dashboard(props: { setDetailType: (type: "pickOfDay") => void }) {
                     HandlePress_connect();
                     return;
                   }
-
-                  // JoinBet(item.bet_id)
                 }}
               />
             )}
